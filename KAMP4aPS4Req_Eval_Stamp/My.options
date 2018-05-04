@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<options:OptionRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apshardwareoptions="http://www.example.org/apshardwareoptions" xmlns:apssoftwareoptions="http://www.example.org/apssoftwareoptions" xmlns:decisions="http://toometa.de/decisions/0.6" xmlns:options="http://toometa.de/options/0.6" id="_sOM-wD5iEeihasksNa97KA">
+  <options xsi:type="apshardwareoptions:APSReqModuleOption" id="_pCOCrz5wEeihasksNa97KA" parentOf="_pw8w8D5wEeihasksNa97KA _qfFCQT5wEeihasksNa97KA">
+    <selectedBy xsi:type="decisions:TextDecision" href="My.decisions#_Sy8kAD5wEeihasksNa97KA"/>
+  </options>
+  <options xsi:type="apshardwareoptions:APSReqComponentOption" id="_pw8w8D5wEeihasksNa97KA" subpartOf="_pCOCrz5wEeihasksNa97KA"/>
+  <options xsi:type="apshardwareoptions:APSReqInterfaceOption" id="_qfFCQT5wEeihasksNa97KA" subpartOf="_pCOCrz5wEeihasksNa97KA"/>
+  <options xsi:type="apssoftwareoptions:APSReqGlobalVariableOption" id="_2bo5d0ZIEeiaS_YE-7PLjQ" description="Inductive sensor Global Variable">
+    <selectedBy xsi:type="decisions:TextDecision" href="My.decisions#_Sy8kAD5wEeihasksNa97KA"/>
+    <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.4"/>
+  </options>
+  <options xsi:type="apssoftwareoptions:APSReqGlobalVariableOption" id="_pW1J50ZJEeiaS_YE-7PLjQ" description="Crane positions Global Variables">
+    <selectedBy xsi:type="decisions:TextDecision" href="My.decisions#_FX2E0EZHEeiaS_YE-7PLjQ"/>
+    <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.11"/>
+    <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.12"/>
+    <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.10"/>
+  </options>
+</options:OptionRepository>
