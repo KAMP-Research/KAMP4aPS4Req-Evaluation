@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<options:OptionRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apshardwareoptions="http://www.example.org/apshardwareoptions" xmlns:apssoftwareoptions="http://www.example.org/apssoftwareoptions" xmlns:decisions="http://toometa.de/decisions/0.6" xmlns:options="http://toometa.de/options/0.6" xmlns:requirements="http://toometa.de/requirements/0.6" id="_sOM-wD5iEeihasksNa97KA">
+  <options xsi:type="apssoftwareoptions:APSReqFunctionBlockOption" id="_-ZxoZD5rEeihasksNa97KA" description="Stamp FunctionBlock" optionType="Change">
+    <couldResolve xsi:type="requirements:FunctionalRequirement" href="My.requirements#_9Kgc8T5kEeihasksNa97KA"/>
+    <functionBlocks href="My.iecrepository#//@ContainsFunctionBlock.3"/>
+  </options>
+  <options xsi:type="apssoftwareoptions:APSReqGlobalVariableOption" id="_Inc9Vz5sEeihasksNa97KA" description="Stamp Global Variables" optionType="Change">
+    <couldResolve xsi:type="requirements:FunctionalRequirement" href="My.requirements#_9Kgc8T5kEeihasksNa97KA"/>
+    <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.10"/>
+    <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.16"/>
+    <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.13"/>
+    <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.14"/>
+    <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.17"/>
+    <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.15"/>
+    <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.36"/>
+    <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.37"/>
+    <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.38"/>
+    <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.39"/>
+  </options>
+  <options xsi:type="apshardwareoptions:APSReqModuleOption" id="_pCOCrz5wEeihasksNa97KA" parentOf="_pw8w8D5wEeihasksNa97KA _qfFCQT5wEeihasksNa97KA">
+    <resolves xsi:type="decisions:TextDecision" href="My.decisions#_Sy8kAD5wEeihasksNa97KA"/>
+    <selectedBy xsi:type="decisions:TextDecision" href="My.decisions#_Sy8kAD5wEeihasksNa97KA"/>
+  </options>
+  <options xsi:type="apshardwareoptions:APSReqComponentOption" id="_pw8w8D5wEeihasksNa97KA" subpartOf="_pCOCrz5wEeihasksNa97KA"/>
+  <options xsi:type="apshardwareoptions:APSReqInterfaceOption" id="_qfFCQT5wEeihasksNa97KA" subpartOf="_pCOCrz5wEeihasksNa97KA"/>
+  <options xsi:type="apssoftwareoptions:APSReqGlobalVariableOption" id="_2bo5d0ZIEeiaS_YE-7PLjQ" description="Inductive sensor Global Variable">
+    <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.4"/>
+  </options>
+  <options xsi:type="apssoftwareoptions:APSReqGlobalVariableOption" id="_Eth6Z0b8Eeie4OLCghaIUQ" description="Crane positions Global Variables" optionType="Remove">
+    <resolves xsi:type="decisions:TextDecision" href="My.decisions#_FX2E0EZHEeiaS_YE-7PLjQ"/>
+    <selectedBy xsi:type="decisions:TextDecision" href="My.decisions#_FX2E0EZHEeiaS_YE-7PLjQ"/>
+    <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.11"/>
+    <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.12"/>
+    <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.10"/>
+  </options>
+  <options xsi:type="apssoftwareoptions:APSReqGlobalVariableOption" id="_C_fyp0b5Eeie4OLCghaIUQ" description="Potentiometer Global Variable">
+    <resolves xsi:type="decisions:TextDecision" href="My.decisions#_FX2E0EZHEeiaS_YE-7PLjQ"/>
+    <selectedBy xsi:type="decisions:TextDecision" href="My.decisions#_FX2E0EZHEeiaS_YE-7PLjQ"/>
+    <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.73"/>
+  </options>
+</options:OptionRepository>
