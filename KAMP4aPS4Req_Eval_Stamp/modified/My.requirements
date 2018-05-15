@@ -10,7 +10,7 @@
     </systemRequirements>
     <systemRequirements xsi:type="requirements:FunctionalRequirement" id="_jnV-wUZGEeiaS_YE-7PLjQ" triggerOf="_wMI8EUZGEeiaS_YE-7PLjQ" specification="Crane transports workpieces: Conveyor, Stamp, Stack"/>
     <systemRequirements xsi:type="requirements:FunctionalRequirement" id="_wMI8EUZGEeiaS_YE-7PLjQ" triggeredBy="_jnV-wUZGEeiaS_YE-7PLjQ" specification="Crane can have 3 positions">
-      <selected xsi:type="decisions:TextDecision" href="My.decisions#_FX2E0EZHEeiaS_YE-7PLjQ"/>
+      <resolvedBy xsi:type="decisions:TextDecision" href="My.decisions#_FX2E0EZHEeiaS_YE-7PLjQ"/>
     </systemRequirements>
   </systemReqSection>
 </requirements:ReqRepository>
