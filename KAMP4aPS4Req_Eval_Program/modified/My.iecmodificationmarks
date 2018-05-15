@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<IECModificationmarks:IECModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IECModel="http://sdq.ipd.kit.edu/IECModel" xmlns:IECModificationmarks="http://sdq.ipd.kit.edu/IECModificationmarks">
+  <seedModifications xsi:type="IECModificationmarks:IECSeedModifications">
+    <programModifications>
+      <affectedElement xsi:type="IECModel:Program" href="My.iecmodel#//@InstantiatesProgram.0"/>
+    </programModifications>
+  </seedModifications>
+  <changePropagationSteps xsi:type="IECModificationmarks:IECChangePropagationDueToDataDependency">
+    <configurationModifications toolderived="true">
+      <affectedElement xsi:type="IECModel:Configuration" href="My.iecmodel#/"/>
+      <causingElements xsi:type="IECModel:Program" href="My.iecmodel#//@InstantiatesProgram.0"/>
+    </configurationModifications>
+  </changePropagationSteps>
+</IECModificationmarks:IECModificationRepository>

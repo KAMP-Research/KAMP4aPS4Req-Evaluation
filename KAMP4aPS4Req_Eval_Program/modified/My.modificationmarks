@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<modificationmarks:APSReqSoftwareModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IECModel="http://sdq.ipd.kit.edu/IECModel" xmlns:IECModificationmarks="http://sdq.ipd.kit.edu/IECModificationmarks" xmlns:apssoftwareoptions="http://www.example.org/apssoftwareoptions" xmlns:modificationmarks="http://sdq.ipd.kit.edu/KAMP4aPS4ReqSoftwareModificationmarks/1.0">
+  <seedModifications xsi:type="modificationmarks:APSReqSoftwareSeedModifications">
+    <programModifications>
+      <affectedElement xsi:type="IECModel:Program" href="My.iecmodel#//@InstantiatesProgram.0"/>
+    </programModifications>
+    <optionModifications>
+      <affectedElement xsi:type="apssoftwareoptions:APSReqProgramOption" href="My.options#_4edfclLCEei8idun1rKPNg"/>
+    </optionModifications>
+  </seedModifications>
+  <changePropagationSteps xsi:type="modificationmarks:APSReqSoftwareChangePropagationDueToSpecificationDependencies">
+    <iecComponentModifications toolderived="true">
+      <affectedElement xsi:type="IECModel:Program" href="My.iecmodel#//@InstantiatesProgram.0"/>
+      <causingElements xsi:type="apssoftwareoptions:APSReqProgramOption" href="My.options#_4edfclLCEei8idun1rKPNg"/>
+    </iecComponentModifications>
+  </changePropagationSteps>
+  <changePropagationSteps xsi:type="IECModificationmarks:IECChangePropagationDueToDataDependency">
+    <configurationModifications toolderived="true">
+      <affectedElement xsi:type="IECModel:Configuration" href="My.iecmodel#/"/>
+      <causingElements xsi:type="IECModel:Program" href="My.iecmodel#//@InstantiatesProgram.0"/>
+    </configurationModifications>
+  </changePropagationSteps>
+</modificationmarks:APSReqSoftwareModificationRepository>

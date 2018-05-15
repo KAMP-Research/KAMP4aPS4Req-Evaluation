@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decisions:DecisionRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apshardwareoptions="http://www.example.org/apshardwareoptions" xmlns:apssoftwareoptions="http://www.example.org/apssoftwareoptions" xmlns:decisions="http://toometa.de/decisions/0.6" xmlns:requirements="http://toometa.de/requirements/0.6" id="_ttJpAD5iEeihasksNa97KA">
+  <decisions xsi:type="decisions:TextDecision" id="_Sy8kAD5wEeihasksNa97KA" description="Workpieces are distinguished via inductive sensor">
+    <triggeredBy xsi:type="requirements:FunctionalRequirement" href="My.requirements#_4zcVET5vEeihasksNa97KA"/>
+    <selected xsi:type="apshardwareoptions:APSReqModuleOption" href="My.options#_pCOCrz5wEeihasksNa97KA"/>
+    <selected xsi:type="apssoftwareoptions:APSReqGlobalVariableOption" href="My.options#_2bo5d0ZIEeiaS_YE-7PLjQ"/>
+    <selectedBy xsi:type="requirements:FunctionalRequirement" href="My.requirements#_4zcVET5vEeihasksNa97KA"/>
+  </decisions>
+  <decisions xsi:type="decisions:TextDecision" id="_FX2E0EZHEeiaS_YE-7PLjQ" description="Crane position identified using three microswitches">
+    <triggeredBy xsi:type="requirements:FunctionalRequirement" href="My.requirements#_wMI8EUZGEeiaS_YE-7PLjQ"/>
+    <selected xsi:type="apssoftwareoptions:APSReqGlobalVariableOption" href="My.options#_pW1J50ZJEeiaS_YE-7PLjQ"/>
+    <selectedBy xsi:type="requirements:FunctionalRequirement" href="My.requirements#_wMI8EUZGEeiaS_YE-7PLjQ"/>
+  </decisions>
+  <decisions xsi:type="decisions:TextDecision" id="_lkgv4FKYEeiq57rbIhKwIw" description="IUnitMode.Hold as Boolean">
+    <selected xsi:type="apssoftwareoptions:APSReqIECMethodOption" href="My.options#_tikLkFKYEeiq57rbIhKwIw"/>
+  </decisions>
+</decisions:DecisionRepository>

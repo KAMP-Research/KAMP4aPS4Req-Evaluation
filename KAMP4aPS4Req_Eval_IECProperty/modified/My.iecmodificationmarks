@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<IECModificationmarks:IECModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IECModel="http://sdq.ipd.kit.edu/IECModel" xmlns:IECModificationmarks="http://sdq.ipd.kit.edu/IECModificationmarks" xmlns:IECReporitory="http://sdq.ipd.kit.edu/IECRepository">
+  <seedModifications xsi:type="IECModificationmarks:IECSeedModifications">
+    <abstractPropertyModifications>
+      <affectedElement xsi:type="IECReporitory:IECAbstractProperty" href="My.iecrepository#//@ContainsInterface.1/@HasProperty.0"/>
+    </abstractPropertyModifications>
+  </seedModifications>
+  <changePropagationSteps xsi:type="IECModificationmarks:IECChangePropagationDueToDataDependency">
+    <programModifications toolderived="true">
+      <affectedElement xsi:type="IECModel:Program" href="My.iecmodel#//@InstantiatesProgram.0"/>
+      <causingElements xsi:type="IECReporitory:IECAbstractProperty" href="My.iecrepository#//@ContainsInterface.1/@HasProperty.0"/>
+    </programModifications>
+    <methodModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.11/@HasMethod.3"/>
+      <causingElements xsi:type="IECReporitory:IECProperty" href="My.iecrepository#//@ContainsFunctionBlock.9/@HasProperty.0"/>
+    </methodModifications>
+    <propertyModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:IECProperty" href="My.iecrepository#//@ContainsFunctionBlock.9/@HasProperty.0"/>
+      <causingElements xsi:type="IECReporitory:IECAbstractProperty" href="My.iecrepository#//@ContainsInterface.1/@HasProperty.0"/>
+    </propertyModifications>
+  </changePropagationSteps>
+</IECModificationmarks:IECModificationRepository>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<modificationmarks:APSReqSoftwareModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IECModel="http://sdq.ipd.kit.edu/IECModel" xmlns:IECModificationmarks="http://sdq.ipd.kit.edu/IECModificationmarks" xmlns:IECReporitory="http://sdq.ipd.kit.edu/IECRepository" xmlns:decisions="http://toometa.de/decisions/0.6" xmlns:modificationmarks="http://sdq.ipd.kit.edu/KAMP4aPS4ReqSoftwareModificationmarks/1.0">
+  <seedModifications xsi:type="modificationmarks:APSReqSoftwareSeedModifications">
+    <abstractPropertyModifications>
+      <affectedElement xsi:type="IECReporitory:IECAbstractProperty" href="My.iecrepository#//@ContainsInterface.1/@HasProperty.0"/>
+    </abstractPropertyModifications>
+    <decisionModifications>
+      <affectedElement xsi:type="decisions:TextDecision" href="My.decisions#_3B9XAFLAEei8idun1rKPNg"/>
+    </decisionModifications>
+  </seedModifications>
+  <changePropagationSteps xsi:type="modificationmarks:APSReqSoftwareChangePropagationDueToSpecificationDependencies">
+    <iecComponentModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:IECAbstractProperty" href="My.iecrepository#//@ContainsInterface.1/@HasProperty.0"/>
+      <causingElements xsi:type="decisions:TextDecision" href="My.decisions#_3B9XAFLAEei8idun1rKPNg"/>
+    </iecComponentModifications>
+  </changePropagationSteps>
+  <changePropagationSteps xsi:type="IECModificationmarks:IECChangePropagationDueToDataDependency">
+    <programModifications toolderived="true">
+      <affectedElement xsi:type="IECModel:Program" href="My.iecmodel#//@InstantiatesProgram.0"/>
+      <causingElements xsi:type="IECReporitory:IECAbstractProperty" href="My.iecrepository#//@ContainsInterface.1/@HasProperty.0"/>
+    </programModifications>
+    <methodModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.11/@HasMethod.3"/>
+      <causingElements xsi:type="IECReporitory:IECProperty" href="My.iecrepository#//@ContainsFunctionBlock.9/@HasProperty.0"/>
+    </methodModifications>
+    <propertyModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:IECProperty" href="My.iecrepository#//@ContainsFunctionBlock.9/@HasProperty.0"/>
+      <causingElements xsi:type="IECReporitory:IECAbstractProperty" href="My.iecrepository#//@ContainsInterface.1/@HasProperty.0"/>
+    </propertyModifications>
+  </changePropagationSteps>
+</modificationmarks:APSReqSoftwareModificationRepository>
