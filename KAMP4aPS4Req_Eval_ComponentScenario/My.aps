@@ -1,109 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aPS:Plant xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BusComponents="edu.kit.ipd.sdq.kaps.xppu.buscomponents" xmlns:ComponentRepository="edu.kit.ipd.sdq.kaps.xppu.componentrepository" xmlns:ElectronicComponents="edu.kit.ipd.sdq.kaps.xppu.electroniccomponents" xmlns:InterfaceRepository="edu.kit.ipd.sdq.kaps.xppu.interfacerepository" xmlns:MechanicalComponents="edu.kit.ipd.sdq.kaps.xppu.mechanicalcomponents" xmlns:ModuleRepository="edu.kit.ipd.sdq.kaps.xppu.modulerepository" xmlns:StructureRepository="edu.kit.ipd.sdq.kaps.xppu.structurerepository" xmlns:aPS="edu.kit.ipd.sdq.kamp4aps.aps" id="_aqmtwHzWEeeoUJ9JGmSFFQ" Name="Some Plant">
-  <structures xsi:type="StructureRepository:Crane" id="_VjBeBnzYEeemcf4jT0r-Vg">
-    <modules xsi:type="ComponentRepository:TurningTable" id="_jMETAIgPEeeXsoq8Y3PSQQ">
-      <modules xsi:type="ModuleRepository:MicroswitchModule" id="_trvW4YgPEeeXsoq8Y3PSQQ" Name="to Stack">
-        <components xsi:type="ComponentRepository:Fixture" id="__4jFv4gPEeeXsoq8Y3PSQQ"/>
-        <components xsi:type="ElectronicComponents:MicroSwitch" id="_Bcj2P4gQEeeXsoq8Y3PSQQ"/>
+  <structures xsi:type="StructureRepository:Crane" id="_VjBeBnzYEeemcf4jT0r-Vg" Name="_VjBeBnzYEeemcf4jT0r-Vg">
+    <modules xsi:type="ComponentRepository:TurningTable" id="_jMETAIgPEeeXsoq8Y3PSQQ" Name="_jMETAIgPEeeXsoq8Y3PSQQ">
+      <modules xsi:type="ModuleRepository:MicroswitchModule" id="_trvW4YgPEeeXsoq8Y3PSQQ" Name="to Stack_trvW4YgPEeeXsoq8Y3PSQQ">
+        <components xsi:type="ComponentRepository:Fixture" id="__4jFv4gPEeeXsoq8Y3PSQQ" Name="__4jFv4gPEeeXsoq8Y3PSQQ"/>
+        <components xsi:type="ElectronicComponents:MicroSwitch" id="_Bcj2P4gQEeeXsoq8Y3PSQQ" Name="_Bcj2P4gQEeeXsoq8Y3PSQQ"/>
       </modules>
       <modules xsi:type="ModuleRepository:MicroswitchModule" id="_xRJXUYgPEeeXsoq8Y3PSQQ" Name="to Stamp">
-        <components xsi:type="ComponentRepository:Fixture" id="_Pl2FD4gQEeeXsoq8Y3PSQQ"/>
-        <components xsi:type="ElectronicComponents:MicroSwitch" id="_YvP5n4gQEeeXsoq8Y3PSQQ"/>
+        <components xsi:type="ComponentRepository:Fixture" id="_Pl2FD4gQEeeXsoq8Y3PSQQ" Name="_Pl2FD4gQEeeXsoq8Y3PSQQ"/>
+        <components xsi:type="ElectronicComponents:MicroSwitch" id="_YvP5n4gQEeeXsoq8Y3PSQQ" Name="_YvP5n4gQEeeXsoq8Y3PSQQ"/>
       </modules>
       <modules xsi:type="ModuleRepository:MicroswitchModule" id="_xxV6UYgPEeeXsoq8Y3PSQQ" Name="to Conveyor">
         <components xsi:type="ComponentRepository:Fixture" id="_QSfvr4gQEeeXsoq8Y3PSQQ"/>
         <components xsi:type="ElectronicComponents:MicroSwitch" id="_Zu4xdIgQEeeXsoq8Y3PSQQ"/>
       </modules>
-      <components xsi:type="ComponentRepository:Rack" id="_yfyUy4gPEeeXsoq8Y3PSQQ" Name="of Turning Table"/>
-      <components xsi:type="MechanicalComponents:Table" id="_zgaEdogPEeeXsoq8Y3PSQQ" Name="of Turning Table"/>
-      <motor_to_drive id="_2T-YSYgPEeeXsoq8Y3PSQQ" Name="of Turning Table"/>
+      <components xsi:type="ComponentRepository:Rack" id="_yfyUy4gPEeeXsoq8Y3PSQQ" Name="of Turning Table_yfyUy4gPEeeXsoq8Y3PSQQ"/>
+      <components xsi:type="MechanicalComponents:Table" id="_zgaEdogPEeeXsoq8Y3PSQQ" Name="of Turning Table_zgaEdogPEeeXsoq8Y3PSQQ"/>
+      <motor_to_drive id="_2T-YSYgPEeeXsoq8Y3PSQQ" Name="of Turning Table_2T-YSYgPEeeXsoq8Y3PSQQ"/>
     </modules>
-    <modules xsi:type="ModuleRepository:VacuumGripperModule" id="_1t0YEoijEee36L_cjg_wOg">
-      <components xsi:type="MechanicalComponents:GripperPart" id="_3VlnS4ijEee36L_cjg_wOg" Name="of Vac Turning Table"/>
-      <components xsi:type="ComponentRepository:RegularValve" id="_5puMroijEee36L_cjg_wOg" Name="of Vac Turning Table"/>
-      <components xsi:type="ComponentRepository:VacuumSwitch" id="_7MUA2IijEee36L_cjg_wOg" Name="of Vac Turning Table"/>
+    <modules xsi:type="ModuleRepository:VacuumGripperModule" id="_1t0YEoijEee36L_cjg_wOg" Name="_1t0YEoijEee36L_cjg_wOg">
+      <components xsi:type="MechanicalComponents:GripperPart" id="_3VlnS4ijEee36L_cjg_wOg" Name="of Vac Turning Table_3VlnS4ijEee36L_cjg_wOg"/>
+      <components xsi:type="ComponentRepository:RegularValve" id="_5puMroijEee36L_cjg_wOg" Name="of Vac Turning Table_5puMroijEee36L_cjg_wOg"/>
+      <components xsi:type="ComponentRepository:VacuumSwitch" id="_7MUA2IijEee36L_cjg_wOg" Name="of Vac Turning Table_7MUA2IijEee36L_cjg_wOg"/>
     </modules>
-    <modules xsi:type="ModuleRepository:MonostableCylinderModule" id="_Zs_Ux4ikEeeLXawdhzQHTw">
-      <components xsi:type="MechanicalComponents:Housing" id="_cgL1YoikEeeLXawdhzQHTw" Name="of MonostableCylinder of Crane"/>
-      <components xsi:type="MechanicalComponents:ReturnSpring" id="_dMfhk4ikEeeLXawdhzQHTw" Name="of MonostableCylinder of Crane"/>
-      <components xsi:type="ComponentRepository:ReedSwitch" id="_fC0xKoikEeeLXawdhzQHTw" Name="1 of MonostableCylinder of Crane"/>
-      <components xsi:type="ComponentRepository:ReedSwitch" id="_gM3iaoikEeeLXawdhzQHTw" Name="2 of MonostableCylinder of Crane"/>
-      <components xsi:type="ComponentRepository:CylinderPart" id="_hkA7joikEeeLXawdhzQHTw" Name="of MonostableCylinder of Crane"/>
-      <components xsi:type="ComponentRepository:RegularValve" id="_j93Hv4ikEeeLXawdhzQHTw" Name="of MonostableCylinder of Crane"/>
+    <modules xsi:type="ModuleRepository:MonostableCylinderModule" id="_Zs_Ux4ikEeeLXawdhzQHTw" Name="_Zs_Ux4ikEeeLXawdhzQHTw">
+      <components xsi:type="MechanicalComponents:Housing" id="_cgL1YoikEeeLXawdhzQHTw" Name="of MonostableCylinder of Crane_cgL1YoikEeeLXawdhzQHTw"/>
+      <components xsi:type="MechanicalComponents:ReturnSpring" id="_dMfhk4ikEeeLXawdhzQHTw" Name="of MonostableCylinder of Crane_dMfhk4ikEeeLXawdhzQHTw"/>
+      <components xsi:type="ComponentRepository:ReedSwitch" id="_fC0xKoikEeeLXawdhzQHTw" Name="1 of MonostableCylinder of Crane_fC0xKoikEeeLXawdhzQHTw"/>
+      <components xsi:type="ComponentRepository:ReedSwitch" id="_gM3iaoikEeeLXawdhzQHTw" Name="2 of MonostableCylinder of Crane_gM3iaoikEeeLXawdhzQHTw"/>
+      <components xsi:type="ComponentRepository:CylinderPart" id="_hkA7joikEeeLXawdhzQHTw" Name="of MonostableCylinder of Crane_hkA7joikEeeLXawdhzQHTw"/>
+      <components xsi:type="ComponentRepository:RegularValve" id="_j93Hv4ikEeeLXawdhzQHTw" Name="of MonostableCylinder of Crane_j93Hv4ikEeeLXawdhzQHTw"/>
     </modules>
-    <components xsi:type="MechanicalComponents:Arm" id="_naF-foikEeeLXawdhzQHTw"/>
-    <components xsi:type="ComponentRepository:PneumaticSplitter" id="_oSipDYikEeeLXawdhzQHTw" Name="Splitter of Crane"/>
+    <components xsi:type="MechanicalComponents:Arm" id="_naF-foikEeeLXawdhzQHTw" Name="_naF-foikEeeLXawdhzQHTw"/>
+    <components xsi:type="ComponentRepository:PneumaticSplitter" id="_oSipDYikEeeLXawdhzQHTw" Name="Splitter of Crane_oSipDYikEeeLXawdhzQHTw"/>
   </structures>
-  <structures xsi:type="StructureRepository:Conveyor" id="_WiL09XzYEeemcf4jT0r-Vg">
-    <modules xsi:type="ModuleRepository:ConveyorBeltModule" id="_gHCAkHzeEeeVwtxsirjJlg">
-      <components xsi:type="ComponentRepository:Frame" id="_gwZt0XzeEeeVwtxsirjJlg" connectedInterfaces="_ah180X2mEeeDbKKokwB3UA _a9YCQX2mEeeDbKKokwB3UA _bZGU8X2mEeeDbKKokwB3UA _mJswwX2mEeeDbKKokwB3UA _mlAzwX2mEeeDbKKokwB3UA _lTObwX2mEeeDbKKokwB3UA _lyt0IX2mEeeDbKKokwB3UA _m-ylsX2mEeeDbKKokwB3UA _nSSJcX2mEeeDbKKokwB3UA"/>
-      <components xsi:type="MechanicalComponents:RubberBand" id="_olW4AXzeEeeVwtxsirjJlg"/>
+  <structures xsi:type="StructureRepository:Conveyor" id="_WiL09XzYEeemcf4jT0r-Vg" Name="_WiL09XzYEeemcf4jT0r-Vg">
+    <modules xsi:type="ModuleRepository:ConveyorBeltModule" id="_gHCAkHzeEeeVwtxsirjJlg" Name="_gHCAkHzeEeeVwtxsirjJlg">
+      <components xsi:type="ComponentRepository:Frame" id="_gwZt0XzeEeeVwtxsirjJlg" Name="_gwZt0XzeEeeVwtxsirjJlg" connectedInterfaces="_ah180X2mEeeDbKKokwB3UA _a9YCQX2mEeeDbKKokwB3UA _bZGU8X2mEeeDbKKokwB3UA _mJswwX2mEeeDbKKokwB3UA _mlAzwX2mEeeDbKKokwB3UA _lTObwX2mEeeDbKKokwB3UA _lyt0IX2mEeeDbKKokwB3UA _m-ylsX2mEeeDbKKokwB3UA _nSSJcX2mEeeDbKKokwB3UA"/>
+      <components xsi:type="MechanicalComponents:RubberBand" id="_olW4AXzeEeeVwtxsirjJlg" Name="_olW4AXzeEeeVwtxsirjJlg"/>
     </modules>
-    <modules xsi:type="ModuleRepository:MotorModule" id="_kVLt9HzcEeeksvdRgaWelw">
-      <components xsi:type="ComponentRepository:SimpleMotor" id="_dFBLrXzfEeeVwtxsirjJlg"/>
+    <modules xsi:type="ModuleRepository:MotorModule" id="_kVLt9HzcEeeksvdRgaWelw" Name="_kVLt9HzcEeeksvdRgaWelw">
+      <components xsi:type="ComponentRepository:SimpleMotor" id="_dFBLrXzfEeeVwtxsirjJlg" Name="_dFBLrXzfEeeVwtxsirjJlg"/>
     </modules>
-    <modules xsi:type="ModuleRepository:OpticalSensorModule" id="_m3rf5nzcEeeksvdRgaWelw" Name="1" interfaces="_lTObwX2mEeeDbKKokwB3UA">
-      <opticalSensor id="_e2V_lXzfEeeVwtxsirjJlg"/>
+    <modules xsi:type="ModuleRepository:OpticalSensorModule" id="_m3rf5nzcEeeksvdRgaWelw" Name="1_m3rf5nzcEeeksvdRgaWelw" interfaces="_lTObwX2mEeeDbKKokwB3UA">
+      <opticalSensor id="_e2V_lXzfEeeVwtxsirjJlg" Name="_e2V_lXzfEeeVwtxsirjJlg"/>
     </modules>
-    <modules xsi:type="ModuleRepository:OpticalSensorModule" id="_oWMsVnzcEeeksvdRgaWelw" Name="2" interfaces="_lyt0IX2mEeeDbKKokwB3UA">
-      <opticalSensor id="_hQBzxXzfEeeVwtxsirjJlg"/>
+    <modules xsi:type="ModuleRepository:OpticalSensorModule" id="_oWMsVnzcEeeksvdRgaWelw" Name="2_oWMsVnzcEeeksvdRgaWelw" interfaces="_lyt0IX2mEeeDbKKokwB3UA">
+      <opticalSensor id="_hQBzxXzfEeeVwtxsirjJlg" Name="_hQBzxXzfEeeVwtxsirjJlg"/>
     </modules>
-    <modules xsi:type="ModuleRepository:InductiveSensorModule" id="_ovfWF3zcEeeksvdRgaWelw" Name="1" interfaces="_mJswwX2mEeeDbKKokwB3UA">
-      <inductiveSensor id="_iTKrxXzfEeeVwtxsirjJlg"/>
+    <modules xsi:type="ModuleRepository:InductiveSensorModule" id="_ovfWF3zcEeeksvdRgaWelw" Name="1_ovfWF3zcEeeksvdRgaWelw" interfaces="_mJswwX2mEeeDbKKokwB3UA">
+      <inductiveSensor id="_iTKrxXzfEeeVwtxsirjJlg" Name="_iTKrxXzfEeeVwtxsirjJlg"/>
     </modules>
-    <modules xsi:type="ModuleRepository:InductiveSensorModule" id="_prHQ13zcEeeksvdRgaWelw" Name="2" interfaces="_mlAzwX2mEeeDbKKokwB3UA">
-      <inductiveSensor id="_jHPNBXzfEeeVwtxsirjJlg"/>
+    <modules xsi:type="ModuleRepository:InductiveSensorModule" id="_prHQ13zcEeeksvdRgaWelw" Name="2_prHQ13zcEeeksvdRgaWelw" interfaces="_mlAzwX2mEeeDbKKokwB3UA">
+      <inductiveSensor id="_jHPNBXzfEeeVwtxsirjJlg" Name="_jHPNBXzfEeeVwtxsirjJlg"/>
     </modules>
-    <modules xsi:type="ModuleRepository:PresenceSensorModule" id="_qUDgKHzcEeeksvdRgaWelw" Name="1" interfaces="_m-ylsX2mEeeDbKKokwB3UA">
-      <presenceSensor id="_j4ylxXzfEeeVwtxsirjJlg"/>
+    <modules xsi:type="ModuleRepository:PresenceSensorModule" id="_qUDgKHzcEeeksvdRgaWelw" Name="1_qUDgKHzcEeeksvdRgaWelw" interfaces="_m-ylsX2mEeeDbKKokwB3UA">
+      <presenceSensor id="_j4ylxXzfEeeVwtxsirjJlg" Name="_j4ylxXzfEeeVwtxsirjJlg"/>
     </modules>
-    <modules xsi:type="ModuleRepository:PresenceSensorModule" id="_rwheKHzcEeeksvdRgaWelw" Name="2" interfaces="_nSSJcX2mEeeDbKKokwB3UA">
-      <presenceSensor id="_koT-NXzfEeeVwtxsirjJlg"/>
+    <modules xsi:type="ModuleRepository:PresenceSensorModule" id="_rwheKHzcEeeksvdRgaWelw" Name="2_rwheKHzcEeeksvdRgaWelw" interfaces="_nSSJcX2mEeeDbKKokwB3UA">
+      <presenceSensor id="_koT-NXzfEeeVwtxsirjJlg" Name="_koT-NXzfEeeVwtxsirjJlg"/>
     </modules>
-    <modules xsi:type="ModuleRepository:PusherModule" id="_sQUGk3zeEeeVwtxsirjJlg" Name="1">
-      <modules xsi:type="ModuleRepository:PressureSensorModule" id="_vRbRuHzfEeeVwtxsirjJlg">
-        <components xsi:type="ComponentRepository:PressureSensor" id="_wXpyo3ziEeeNBPa_wapNVw"/>
+    <modules xsi:type="ModuleRepository:PusherModule" id="_sQUGk3zeEeeVwtxsirjJlg" Name="1_sQUGk3zeEeeVwtxsirjJlg">
+      <modules xsi:type="ModuleRepository:PressureSensorModule" id="_vRbRuHzfEeeVwtxsirjJlg" Name="_vRbRuHzfEeeVwtxsirjJlg">
+        <components xsi:type="ComponentRepository:PressureSensor" id="_wXpyo3ziEeeNBPa_wapNVw" Name="_wXpyo3ziEeeNBPa_wapNVw"/>
       </modules>
-      <components xsi:type="ComponentRepository:MonostableCylinder" id="_oetn7XzfEeeVwtxsirjJlg">
-        <housing id="_yBEAYHziEeeNBPa_wapNVw"/>
-        <spring id="_yaChEXziEeeNBPa_wapNVw"/>
-        <reedSwitches id="_yyak0nziEeeNBPa_wapNVw"/>
-        <reedSwitches id="_zJCVEnziEeeNBPa_wapNVw"/>
-        <cylinderPart id="_zc0zw3ziEeeNBPa_wapNVw"/>
-        <valve id="_0AoEZHziEeeNBPa_wapNVw"/>
+      <components xsi:type="ComponentRepository:MonostableCylinder" id="_oetn7XzfEeeVwtxsirjJlg" Name="_oetn7XzfEeeVwtxsirjJlg">
+        <housing id="_yBEAYHziEeeNBPa_wapNVw" Name="_yBEAYHziEeeNBPa_wapNVw"/>
+        <spring id="_yaChEXziEeeNBPa_wapNVw" Name="_yaChEXziEeeNBPa_wapNVw"/>
+        <reedSwitches id="_yyak0nziEeeNBPa_wapNVw" Name="_yyak0nziEeeNBPa_wapNVw"/>
+        <reedSwitches id="_zJCVEnziEeeNBPa_wapNVw" Name="_zJCVEnziEeeNBPa_wapNVw"/>
+        <cylinderPart id="_zc0zw3ziEeeNBPa_wapNVw" Name="_zc0zw3ziEeeNBPa_wapNVw"/>
+        <valve id="_0AoEZHziEeeNBPa_wapNVw" Name="_0AoEZHziEeeNBPa_wapNVw"/>
       </components>
-      <components xsi:type="ComponentRepository:Pusher" id="_lclTonzfEeeVwtxsirjJlg"/>
+      <components xsi:type="ComponentRepository:Pusher" id="_lclTonzfEeeVwtxsirjJlg" Name="_lclTonzfEeeVwtxsirjJlg"/>
     </modules>
-    <modules xsi:type="ModuleRepository:PusherModule" id="_tpHFg3zeEeeVwtxsirjJlg" Name="2">
-      <modules xsi:type="ModuleRepository:PressureSensorModule" id="_wP66SHzfEeeVwtxsirjJlg">
-        <components xsi:type="ComponentRepository:PressureSensor" id="_4P8kk3ziEeeNBPa_wapNVw"/>
+    <modules xsi:type="ModuleRepository:PusherModule" id="_tpHFg3zeEeeVwtxsirjJlg" Name="2_tpHFg3zeEeeVwtxsirjJlg">
+      <modules xsi:type="ModuleRepository:PressureSensorModule" id="_wP66SHzfEeeVwtxsirjJlg" Name="_wP66SHzfEeeVwtxsirjJlg">
+        <components xsi:type="ComponentRepository:PressureSensor" id="_4P8kk3ziEeeNBPa_wapNVw" Name="_4P8kk3ziEeeNBPa_wapNVw"/>
       </modules>
-      <components xsi:type="ComponentRepository:MonostableCylinder" id="_w1fsrXzfEeeVwtxsirjJlg">
-        <housing id="_zY9u0HzfEeeVwtxsirjJlg"/>
-        <spring id="_z54qkXzfEeeVwtxsirjJlg"/>
-        <reedSwitches id="_0Rn1InzfEeeVwtxsirjJlg"/>
-        <reedSwitches id="_12Q3snzfEeeVwtxsirjJlg"/>
-        <cylinderPart id="_2PB9A3zfEeeVwtxsirjJlg"/>
-        <valve id="_2swa1HzfEeeVwtxsirjJlg"/>
+      <components xsi:type="ComponentRepository:MonostableCylinder" id="_w1fsrXzfEeeVwtxsirjJlg" Name="_w1fsrXzfEeeVwtxsirjJlg">
+        <housing id="_zY9u0HzfEeeVwtxsirjJlg" Name="_zY9u0HzfEeeVwtxsirjJlg"/>
+        <spring id="_z54qkXzfEeeVwtxsirjJlg" Name="_z54qkXzfEeeVwtxsirjJlg"/>
+        <reedSwitches id="_0Rn1InzfEeeVwtxsirjJlg" Name="_0Rn1InzfEeeVwtxsirjJlg"/>
+        <reedSwitches id="_12Q3snzfEeeVwtxsirjJlg" Name="_12Q3snzfEeeVwtxsirjJlg"/>
+        <cylinderPart id="_2PB9A3zfEeeVwtxsirjJlg" Name="_2PB9A3zfEeeVwtxsirjJlg"/>
+        <valve id="_2swa1HzfEeeVwtxsirjJlg" Name="_2swa1HzfEeeVwtxsirjJlg"/>
       </components>
-      <components xsi:type="ComponentRepository:Pusher" id="_xU_FAnzfEeeVwtxsirjJlg"/>
+      <components xsi:type="ComponentRepository:Pusher" id="_xU_FAnzfEeeVwtxsirjJlg" Name="_xU_FAnzfEeeVwtxsirjJlg"/>
     </modules>
-    <components xsi:type="ComponentRepository:RegularRamp" id="_W19BXnzfEeeVwtxsirjJlg" Name="1" connectedInterfaces="_ah180X2mEeeDbKKokwB3UA"/>
-    <components xsi:type="ComponentRepository:RegularRamp" id="_YEppHnzfEeeVwtxsirjJlg" Name="2" connectedInterfaces="_a9YCQX2mEeeDbKKokwB3UA"/>
-    <components xsi:type="ComponentRepository:RegularRamp" id="_YoumjnzfEeeVwtxsirjJlg" Name="3" connectedInterfaces="_bZGU8X2mEeeDbKKokwB3UA"/>
-    <components xsi:type="ComponentRepository:PneumaticSplitter" id="_ZPAji3zfEeeVwtxsirjJlg"/>
+    <components xsi:type="ComponentRepository:RegularRamp" id="_W19BXnzfEeeVwtxsirjJlg" Name="1_W19BXnzfEeeVwtxsirjJlg" connectedInterfaces="_ah180X2mEeeDbKKokwB3UA"/>
+    <components xsi:type="ComponentRepository:RegularRamp" id="_YEppHnzfEeeVwtxsirjJlg" Name="2_YEppHnzfEeeVwtxsirjJlg" connectedInterfaces="_a9YCQX2mEeeDbKKokwB3UA"/>
+    <components xsi:type="ComponentRepository:RegularRamp" id="_YoumjnzfEeeVwtxsirjJlg" Name="3_YoumjnzfEeeVwtxsirjJlg" connectedInterfaces="_bZGU8X2mEeeDbKKokwB3UA"/>
+    <components xsi:type="ComponentRepository:PneumaticSplitter" id="_ZPAji3zfEeeVwtxsirjJlg" Name="_ZPAji3zfEeeVwtxsirjJlg"/>
   </structures>
-  <structures xsi:type="StructureRepository:ControlCabinet" id="_W4jGg3zYEeemcf4jT0r-Vg">
-    <components xsi:type="ComponentRepository:Controller" id="_8zPwtXziEeeNBPa_wapNVw"/>
+  <structures xsi:type="StructureRepository:ControlCabinet" id="_W4jGg3zYEeemcf4jT0r-Vg" Name="_W4jGg3zYEeemcf4jT0r-Vg">
+    <components xsi:type="ComponentRepository:Controller" id="_8zPwtXziEeeNBPa_wapNVw" Name="_8zPwtXziEeeNBPa_wapNVw"/>
   </structures>
-  <structures xsi:type="StructureRepository:PowerWiring" id="_YCrXV3zYEeemcf4jT0r-Vg"/>
-  <structures xsi:type="StructureRepository:LogicalWiring" id="_vB2WHn2pEeeDbKKokwB3UA">
+  <structures xsi:type="StructureRepository:PowerWiring" id="_YCrXV3zYEeemcf4jT0r-Vg" Name="_YCrXV3zYEeemcf4jT0r-Vg"/>
+  <structures xsi:type="StructureRepository:LogicalWiring" id="_vB2WHn2pEeeDbKKokwB3UA" Name="_vB2WHn2pEeeDbKKokwB3UA">
     <components xsi:type="BusComponents:BusCable" id="_xugwk32pEeeDbKKokwB3UA" Name="Microswitch_Stamp_To_Controller"/>
     <components xsi:type="BusComponents:BusCable" id="_yw2XU32pEeeDbKKokwB3UA" Name="Microswitch_Stack_To_Controller"/>
     <components xsi:type="BusComponents:BusCable" id="_cZisM32rEeeDbKKokwB3UA" Name="Microswitch_Conveyor_To_Controller"/>
   </structures>
-  <structures xsi:type="StructureRepository:PneumaticNetwork" id="_YY77NHzYEeemcf4jT0r-Vg"/>
-  <interfaceRepository id="_hm0NuX2hEeePLqB7yLqEYA">
+  <structures xsi:type="StructureRepository:PneumaticNetwork" id="_YY77NHzYEeemcf4jT0r-Vg" Name="_YY77NHzYEeemcf4jT0r-Vg"/>
+  <interfaceRepository id="_hm0NuX2hEeePLqB7yLqEYA" Name="_hm0NuX2hEeePLqB7yLqEYA">
     <allInterfacesInPlant xsi:type="InterfaceRepository:Screwing" id="_MxcE0H2iEee9d-84vECnyA" Name="Rack_To_TurningTable" parentElement="_yfyUy4gPEeeXsoq8Y3PSQQ _jMETAIgPEeeXsoq8Y3PSQQ"/>
     <allInterfacesInPlant xsi:type="InterfaceRepository:Suspension" id="_nj-TMn2iEeezPc048XY9wQ" Name="TurningTable_Arm" parentElement="_naF-foikEeeLXawdhzQHTw _jMETAIgPEeeXsoq8Y3PSQQ"/>
     <allInterfacesInPlant xsi:type="InterfaceRepository:Screwing" id="_qqEhcX2iEeezPc048XY9wQ" Name="Cylinder_To_TurningTable" parentElement="_Zs_Ux4ikEeeLXawdhzQHTw _jMETAIgPEeeXsoq8Y3PSQQ"/>
@@ -133,6 +133,6 @@
     <allInterfacesInPlant xsi:type="InterfaceRepository:SignalInterface" id="_CJ5sJn2nEeeDbKKokwB3UA" Name="Controller_To_MSStamp" parentElement="_xugwk32pEeeDbKKokwB3UA _8zPwtXziEeeNBPa_wapNVw _xRJXUYgPEeeXsoq8Y3PSQQ"/>
     <allInterfacesInPlant xsi:type="InterfaceRepository:SignalInterface" id="_CmvZJn2nEeeDbKKokwB3UA" Name="Controller_To_MSConveyor" parentElement="_cZisM32rEeeDbKKokwB3UA _8zPwtXziEeeNBPa_wapNVw _xxV6UYgPEeeXsoq8Y3PSQQ"/>
   </interfaceRepository>
-  <componentRepository id="_lkyH2k-GEeixOcEpOxYK8A" allComponentsInPlant="_naF-foikEeeLXawdhzQHTw _cZisM32rEeeDbKKokwB3UA _yw2XU32pEeeDbKKokwB3UA _xugwk32pEeeDbKKokwB3UA _8zPwtXziEeeNBPa_wapNVw _zc0zw3ziEeeNBPa_wapNVw _2PB9A3zfEeeVwtxsirjJlg _hkA7joikEeeLXawdhzQHTw __4jFv4gPEeeXsoq8Y3PSQQ _Pl2FD4gQEeeXsoq8Y3PSQQ _QSfvr4gQEeeXsoq8Y3PSQQ _gwZt0XzeEeeVwtxsirjJlg _3VlnS4ijEee36L_cjg_wOg _yBEAYHziEeeNBPa_wapNVw _zY9u0HzfEeeVwtxsirjJlg _cgL1YoikEeeLXawdhzQHTw _iTKrxXzfEeeVwtxsirjJlg _jHPNBXzfEeeVwtxsirjJlg _Bcj2P4gQEeeXsoq8Y3PSQQ _YvP5n4gQEeeXsoq8Y3PSQQ _Zu4xdIgQEeeXsoq8Y3PSQQ _oetn7XzfEeeVwtxsirjJlg _w1fsrXzfEeeVwtxsirjJlg _e2V_lXzfEeeVwtxsirjJlg _hQBzxXzfEeeVwtxsirjJlg _ZPAji3zfEeeVwtxsirjJlg _oSipDYikEeeLXawdhzQHTw _j4ylxXzfEeeVwtxsirjJlg _koT-NXzfEeeVwtxsirjJlg _wXpyo3ziEeeNBPa_wapNVw _4P8kk3ziEeeNBPa_wapNVw _lclTonzfEeeVwtxsirjJlg _xU_FAnzfEeeVwtxsirjJlg _yfyUy4gPEeeXsoq8Y3PSQQ _yyak0nziEeeNBPa_wapNVw _zJCVEnziEeeNBPa_wapNVw _0Rn1InzfEeeVwtxsirjJlg _12Q3snzfEeeVwtxsirjJlg _fC0xKoikEeeLXawdhzQHTw _gM3iaoikEeeLXawdhzQHTw _W19BXnzfEeeVwtxsirjJlg _YEppHnzfEeeVwtxsirjJlg _YoumjnzfEeeVwtxsirjJlg _0AoEZHziEeeNBPa_wapNVw _2swa1HzfEeeVwtxsirjJlg _j93Hv4ikEeeLXawdhzQHTw _5puMroijEee36L_cjg_wOg _yaChEXziEeeNBPa_wapNVw _z54qkXzfEeeVwtxsirjJlg _dMfhk4ikEeeLXawdhzQHTw _olW4AXzeEeeVwtxsirjJlg _dFBLrXzfEeeVwtxsirjJlg _2T-YSYgPEeeXsoq8Y3PSQQ _zgaEdogPEeeXsoq8Y3PSQQ _7MUA2IijEee36L_cjg_wOg"/>
-  <moduleRepository id="_lLLVC0-GEeixOcEpOxYK8A" allModulesInPlant="_gHCAkHzeEeeVwtxsirjJlg _ovfWF3zcEeeksvdRgaWelw _prHQ13zcEeeksvdRgaWelw _xxV6UYgPEeeXsoq8Y3PSQQ _trvW4YgPEeeXsoq8Y3PSQQ _xRJXUYgPEeeXsoq8Y3PSQQ _Zs_Ux4ikEeeLXawdhzQHTw _kVLt9HzcEeeksvdRgaWelw _m3rf5nzcEeeksvdRgaWelw _oWMsVnzcEeeksvdRgaWelw _qUDgKHzcEeeksvdRgaWelw _rwheKHzcEeeksvdRgaWelw _vRbRuHzfEeeVwtxsirjJlg _wP66SHzfEeeVwtxsirjJlg _sQUGk3zeEeeVwtxsirjJlg _tpHFg3zeEeeVwtxsirjJlg _jMETAIgPEeeXsoq8Y3PSQQ _1t0YEoijEee36L_cjg_wOg"/>
+  <componentRepository id="_OqKOmFgrEeirI4xIaGvDuA" allComponentsInPlant="_naF-foikEeeLXawdhzQHTw _cZisM32rEeeDbKKokwB3UA _yw2XU32pEeeDbKKokwB3UA _xugwk32pEeeDbKKokwB3UA _8zPwtXziEeeNBPa_wapNVw _2PB9A3zfEeeVwtxsirjJlg _zc0zw3ziEeeNBPa_wapNVw _hkA7joikEeeLXawdhzQHTw _QSfvr4gQEeeXsoq8Y3PSQQ __4jFv4gPEeeXsoq8Y3PSQQ _Pl2FD4gQEeeXsoq8Y3PSQQ _gwZt0XzeEeeVwtxsirjJlg _3VlnS4ijEee36L_cjg_wOg _yBEAYHziEeeNBPa_wapNVw _zY9u0HzfEeeVwtxsirjJlg _cgL1YoikEeeLXawdhzQHTw _iTKrxXzfEeeVwtxsirjJlg _jHPNBXzfEeeVwtxsirjJlg _Zu4xdIgQEeeXsoq8Y3PSQQ _Bcj2P4gQEeeXsoq8Y3PSQQ _YvP5n4gQEeeXsoq8Y3PSQQ _oetn7XzfEeeVwtxsirjJlg _w1fsrXzfEeeVwtxsirjJlg _e2V_lXzfEeeVwtxsirjJlg _hQBzxXzfEeeVwtxsirjJlg _ZPAji3zfEeeVwtxsirjJlg _oSipDYikEeeLXawdhzQHTw _j4ylxXzfEeeVwtxsirjJlg _koT-NXzfEeeVwtxsirjJlg _4P8kk3ziEeeNBPa_wapNVw _wXpyo3ziEeeNBPa_wapNVw _lclTonzfEeeVwtxsirjJlg _xU_FAnzfEeeVwtxsirjJlg _yfyUy4gPEeeXsoq8Y3PSQQ _0Rn1InzfEeeVwtxsirjJlg _12Q3snzfEeeVwtxsirjJlg _yyak0nziEeeNBPa_wapNVw _zJCVEnziEeeNBPa_wapNVw _fC0xKoikEeeLXawdhzQHTw _gM3iaoikEeeLXawdhzQHTw _W19BXnzfEeeVwtxsirjJlg _YEppHnzfEeeVwtxsirjJlg _YoumjnzfEeeVwtxsirjJlg _0AoEZHziEeeNBPa_wapNVw _2swa1HzfEeeVwtxsirjJlg _j93Hv4ikEeeLXawdhzQHTw _5puMroijEee36L_cjg_wOg _yaChEXziEeeNBPa_wapNVw _z54qkXzfEeeVwtxsirjJlg _dMfhk4ikEeeLXawdhzQHTw _olW4AXzeEeeVwtxsirjJlg _dFBLrXzfEeeVwtxsirjJlg _2T-YSYgPEeeXsoq8Y3PSQQ _zgaEdogPEeeXsoq8Y3PSQQ _7MUA2IijEee36L_cjg_wOg"/>
+  <moduleRepository id="_PBdUS1grEeirI4xIaGvDuA" allModulesInPlant="_gHCAkHzeEeeVwtxsirjJlg _ovfWF3zcEeeksvdRgaWelw _prHQ13zcEeeksvdRgaWelw _xxV6UYgPEeeXsoq8Y3PSQQ _trvW4YgPEeeXsoq8Y3PSQQ _xRJXUYgPEeeXsoq8Y3PSQQ _Zs_Ux4ikEeeLXawdhzQHTw _kVLt9HzcEeeksvdRgaWelw _m3rf5nzcEeeksvdRgaWelw _oWMsVnzcEeeksvdRgaWelw _qUDgKHzcEeeksvdRgaWelw _rwheKHzcEeeksvdRgaWelw _vRbRuHzfEeeVwtxsirjJlg _wP66SHzfEeeVwtxsirjJlg _sQUGk3zeEeeVwtxsirjJlg _tpHFg3zeEeeVwtxsirjJlg _jMETAIgPEeeXsoq8Y3PSQQ _1t0YEoijEee36L_cjg_wOg"/>
 </aPS:Plant>

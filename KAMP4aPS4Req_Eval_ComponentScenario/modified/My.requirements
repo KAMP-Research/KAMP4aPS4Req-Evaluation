@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<requirements:ReqRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apssoftwareoptions="http://www.example.org/apssoftwareoptions" xmlns:decisions="http://toometa.de/decisions/0.6" xmlns:requirements="http://toometa.de/requirements/0.6" id="_qOd7oD5iEeihasksNa97KA" description="aPS Requirements">
+<requirements:ReqRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decisions="http://toometa.de/decisions/0.6" xmlns:requirements="http://toometa.de/requirements/0.6" id="_qOd7oD5iEeihasksNa97KA" description="aPS Requirements">
   <systemReqSection id="_AruWYj5kEeihasksNa97KA">
-    <systemRequirements xsi:type="requirements:FunctionalRequirement" id="_9Kgc8T5kEeihasksNa97KA" specification="Workpieces can be stamped">
-      <couldBeResolvedBy xsi:type="apssoftwareoptions:APSReqFunctionBlockOption" href="My.options#_-ZxoZD5rEeihasksNa97KA"/>
-      <couldBeResolvedBy xsi:type="apssoftwareoptions:APSReqGlobalVariableOption" href="My.options#_Inc9Vz5sEeihasksNa97KA"/>
-    </systemRequirements>
     <systemRequirements xsi:type="requirements:FunctionalRequirement" id="_4zcVET5vEeihasksNa97KA" specification="Black and metallic workpieces are processed">
       <resolvedBy xsi:type="decisions:TextDecision" href="My.decisions#_Sy8kAD5wEeihasksNa97KA"/>
-      <selected xsi:type="decisions:TextDecision" href="My.decisions#_Sy8kAD5wEeihasksNa97KA"/>
     </systemRequirements>
     <systemRequirements xsi:type="requirements:FunctionalRequirement" id="_jnV-wUZGEeiaS_YE-7PLjQ" triggerOf="_wMI8EUZGEeiaS_YE-7PLjQ" specification="Crane transports workpieces: Conveyor, Stamp, Stack"/>
     <systemRequirements xsi:type="requirements:FunctionalRequirement" id="_wMI8EUZGEeiaS_YE-7PLjQ" triggeredBy="_jnV-wUZGEeiaS_YE-7PLjQ" specification="Crane can have 3 positions">
       <resolvedBy xsi:type="decisions:TextDecision" href="My.decisions#_FX2E0EZHEeiaS_YE-7PLjQ"/>
-      <selected xsi:type="decisions:TextDecision" href="My.decisions#_FX2E0EZHEeiaS_YE-7PLjQ"/>
     </systemRequirements>
-    <systemRequirements xsi:type="requirements:QualityRequirement" id="_TONA0k-AEeiWBafC-Q7p9Q" specification="Increase capacity of conveyor">
-      <resolvedBy xsi:type="decisions:TextDecision" href="My.decisions#_YBr98E-AEeiWBafC-Q7p9Q"/>
-    </systemRequirements>
+    <systemRequirements xsi:type="requirements:QualityRequirement" id="_cchD0lguEeirI4xIaGvDuA" specification="Increase conveyor capacity"/>
   </systemReqSection>
 </requirements:ReqRepository>

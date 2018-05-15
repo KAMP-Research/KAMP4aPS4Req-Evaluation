@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="ASCII"?>
-<IECModificationmarks:IECModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IECModificationmarks="http://sdq.ipd.kit.edu/IECModificationmarks">
-  <seedModifications xsi:type="IECModificationmarks:IECSeedModifications"/>
-</IECModificationmarks:IECModificationRepository>
