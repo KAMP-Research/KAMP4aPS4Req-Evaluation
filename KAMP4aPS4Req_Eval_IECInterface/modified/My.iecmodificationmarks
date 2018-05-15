@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<IECModificationmarks:IECModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IECModel="http://sdq.ipd.kit.edu/IECModel" xmlns:IECModificationmarks="http://sdq.ipd.kit.edu/IECModificationmarks" xmlns:IECReporitory="http://sdq.ipd.kit.edu/IECRepository">
+  <seedModifications xsi:type="IECModificationmarks:IECSeedModifications">
+    <interfaceModifications>
+      <affectedElement xsi:type="IECReporitory:IECInterface" href="My.iecrepository#//@ContainsInterface.3"/>
+    </interfaceModifications>
+  </seedModifications>
+  <changePropagationSteps xsi:type="IECModificationmarks:IECChangePropagationDueToDataDependency">
+    <functionBlockModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.12"/>
+      <causingElements xsi:type="IECReporitory:IECInterface" href="My.iecrepository#//@ContainsInterface.3"/>
+    </functionBlockModifications>
+    <globalVariableModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.73"/>
+      <causingElements xsi:type="IECReporitory:IECInterface" href="My.iecrepository#//@ContainsInterface.3"/>
+    </globalVariableModifications>
+    <functionModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:Function" href="My.iecrepository#//@ContainsFunction.0"/>
+      <causingElements xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.12"/>
+      <causingElements xsi:type="IECReporitory:IECInterface" href="My.iecrepository#//@ContainsInterface.3"/>
+    </functionModifications>
+    <abstractMethodModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:IECAbstractMethod" href="My.iecrepository#//@ContainsInterface.2/@HasMethod.0"/>
+      <causingElements xsi:type="IECReporitory:IECInterface" href="My.iecrepository#//@ContainsInterface.3"/>
+    </abstractMethodModifications>
+    <abstractPropertyModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:IECAbstractProperty" href="My.iecrepository#//@ContainsInterface.2/@HasProperty.0"/>
+      <causingElements xsi:type="IECReporitory:IECInterface" href="My.iecrepository#//@ContainsInterface.3"/>
+    </abstractPropertyModifications>
+    <configurationModifications toolderived="true">
+      <affectedElement xsi:type="IECModel:Configuration" href="My.iecmodel#/"/>
+      <causingElements xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.73"/>
+    </configurationModifications>
+    <methodModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.12/@HasMethod.0"/>
+      <causingElements xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.12"/>
+      <causingElements xsi:type="IECReporitory:IECInterface" href="My.iecrepository#//@ContainsInterface.3"/>
+      <causingElements xsi:type="IECReporitory:IECAbstractMethod" href="My.iecrepository#//@ContainsInterface.2/@HasMethod.0"/>
+    </methodModifications>
+    <propertyModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:IECProperty" href="My.iecrepository#//@ContainsFunctionBlock.12/@HasProperty.0"/>
+      <causingElements xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.12"/>
+      <causingElements xsi:type="IECReporitory:IECInterface" href="My.iecrepository#//@ContainsInterface.3"/>
+      <causingElements xsi:type="IECReporitory:IECAbstractProperty" href="My.iecrepository#//@ContainsInterface.2/@HasProperty.0"/>
+    </propertyModifications>
+  </changePropagationSteps>
+</IECModificationmarks:IECModificationRepository>
