@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IECReporitory:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:IECReporitory="http://sdq.ipd.kit.edu/IECRepository">
+  <ContainsInterface id="IECInterface__vUMVAJVNEeed_Iyh1NuRXg" Name="IModule IECInterface__vUMVAJVNEeed_Iyh1NuRXg">
+    <HasMethod id="IECAbstractMethod__yCXLcJVNEeed_Iyh1NuRXg" Name="IModule.aborting IECAbstractMethod__yCXLcJVNEeed_Iyh1NuRXg"/>
+    <HasMethod id="IECAbstractMethod__zdaNIJVNEeed_Iyh1NuRXg" Name="IModule.clearing IECAbstractMethod__zdaNIJVNEeed_Iyh1NuRXg"/>
+    <HasMethod id="IECAbstractMethod__0g5qcJVNEeed_Iyh1NuRXg" Name="IModule.completing IECAbstractMethod__0g5qcJVNEeed_Iyh1NuRXg"/>
+    <HasMethod id="IECAbstractMethod__2YCyQJVNEeed_Iyh1NuRXg" Name="IModule.execute IECAbstractMethod__2YCyQJVNEeed_Iyh1NuRXg"/>
+    <HasMethod id="IECAbstractMethod__3hOA0JVNEeed_Iyh1NuRXg" Name="IModule.holding IECAbstractMethod__3hOA0JVNEeed_Iyh1NuRXg"/>
+    <HasMethod id="IECAbstractMethod__5RMwsJVNEeed_Iyh1NuRXg" Name="IModule.resetting IECAbstractMethod__5RMwsJVNEeed_Iyh1NuRXg"/>
+    <HasMethod id="IECAbstractMethod__6kEGwJVNEeed_Iyh1NuRXg" Name="IModule.starting IECAbstractMethod__6kEGwJVNEeed_Iyh1NuRXg"/>
+    <HasMethod id="IECAbstractMethod__7zbc4JVNEeed_Iyh1NuRXg" Name="IModule.stopping IECAbstractMethod__7zbc4JVNEeed_Iyh1NuRXg"/>
+    <HasMethod id="IECAbstractMethod__8rqscJVNEeed_Iyh1NuRXg" Name="IModule.unHolding IECAbstractMethod__8rqscJVNEeed_Iyh1NuRXg"/>
+  </ContainsInterface>
+  <ContainsInterface id="IECInterface__uXkH0JbFEeeJ8LwYReQ9UA" Name="IUnitMode IECInterface__uXkH0JbFEeeJ8LwYReQ9UA">
+    <HasMethod id="IECAbstractMethod__cnPEUJbGEeeSquziZesqIA" Name="IUnitMode.Abort IECAbstractMethod__cnPEUJbGEeeSquziZesqIA"/>
+    <HasMethod id="IECAbstractMethod__eBnXoJbGEeeSquziZesqIA" Name="IUnitMode.ActingStateCompleted IECAbstractMethod__eBnXoJbGEeeSquziZesqIA"/>
+    <HasMethod id="IECAbstractMethod__fZaRAJbGEeeSquziZesqIA" Name="IUnitMode.AllowsEntering IECAbstractMethod__fZaRAJbGEeeSquziZesqIA"/>
+    <HasMethod id="IECAbstractMethod__g2LJ8JbGEeeSquziZesqIA" Name="IUnitMode.Clear IECAbstractMethod__g2LJ8JbGEeeSquziZesqIA"/>
+    <HasMethod id="IECAbstractMethod__iJHYgJbGEeeSquziZesqIA" Name="IUnitMode.Enter IECAbstractMethod__iJHYgJbGEeeSquziZesqIA"/>
+    <HasMethod id="IECAbstractMethod__j0eHEJbGEeeSquziZesqIA" Name="IUnitMode.Hold IECAbstractMethod__j0eHEJbGEeeSquziZesqIA"/>
+    <HasMethod id="IECAbstractMethod__lLrKkJbGEeeSquziZesqIA" Name="IUnitMode.NextState IECAbstractMethod__lLrKkJbGEeeSquziZesqIA"/>
+    <HasMethod id="IECAbstractMethod__mXL7cJbGEeeSquziZesqIA" Name="IUnitMode.Reset IECAbstractMethod__mXL7cJbGEeeSquziZesqIA"/>
+    <HasMethod id="IECAbstractMethod__oRlyoJbGEeeSquziZesqIA" Name="IUnitMode.Start IECAbstractMethod__oRlyoJbGEeeSquziZesqIA"/>
+    <HasMethod id="IECAbstractMethod__p0fv0JbGEeeSquziZesqIA" Name="IUnitMode.Stop IECAbstractMethod__p0fv0JbGEeeSquziZesqIA"/>
+    <HasMethod id="IECAbstractMethod__q9Iy4JbGEeeSquziZesqIA" Name="IUnitMode.Suspend IECAbstractMethod__q9Iy4JbGEeeSquziZesqIA"/>
+    <HasMethod id="IECAbstractMethod__sMtkYJbGEeeSquziZesqIA" Name="IUnitMode.Unhold IECAbstractMethod__sMtkYJbGEeeSquziZesqIA"/>
+    <HasMethod id="IECAbstractMethod__uJgoQJbGEeeSquziZesqIA" Name="IUnitMode.UnSuspend IECAbstractMethod__uJgoQJbGEeeSquziZesqIA"/>
+    <HasProperty id="IECAbstractProperty__t0L4gZbGEeeSquziZesqIA" Name="IUnitMode.Active IECAbstractProperty__t0L4gZbGEeeSquziZesqIA"/>
+    <HasProperty id="IECAbstractProperty__jWE64ZbGEeeSquziZesqIA" Name="IUnitMode.AllowsLeaving IECAbstractProperty__jWE64ZbGEeeSquziZesqIA"/>
+    <HasProperty id="IECAbstractProperty__x_YGkZbGEeeSquziZesqIA" Name="IUnitMode.CurrentState IECAbstractProperty__x_YGkZbGEeeSquziZesqIA"/>
+    <HasProperty id="IECAbstractProperty__zO-tQZbGEeeSquziZesqIA" Name="IUnitMode.Name IECAbstractProperty__zO-tQZbGEeeSquziZesqIA"/>
+    <HasProperty id="IECAbstractProperty__0XmiMZbGEeeSquziZesqIA" Name="IUnitMode.SupportedStates IECAbstractProperty__0XmiMZbGEeeSquziZesqIA"/>
+  </ContainsInterface>
+  <ContainsFunctionBlock id="FunctionBlock__2I05cZVsEeed_Iyh1NuRXg" Name="Conveyor1 FunctionBlock__2I05cZVsEeed_Iyh1NuRXg" Implements="//@ContainsInterface.0">
+    <HasMethod id="IECMethod__4WtGQJVsEeed_Iyh1NuRXg" Name="Conveyor1.aborting IECMethod__4WtGQJVsEeed_Iyh1NuRXg" implements="//@ContainsInterface.0/@HasMethod.0"/>
+    <HasMethod id="IECMethod__6OUIIJVsEeed_Iyh1NuRXg" Name="Conveyor1.clearing IECMethod__6OUIIJVsEeed_Iyh1NuRXg" implements="//@ContainsInterface.0/@HasMethod.1"/>
+    <HasMethod id="IECMethod___RAl8JVsEeed_Iyh1NuRXg" Name="Conveyor1.completing IECMethod___RAl8JVsEeed_Iyh1NuRXg" implements="//@ContainsInterface.0/@HasMethod.2" WritesGlobalVariable="//@ContainsGlobalVariable.49" CallsMethod="//@ContainsFunctionBlock.4/@HasMethod.1"/>
+    <HasMethod id="IECMethod__y176cJVuEee2q6FRxxB6Rg" Name="Conveyor1.execute IECMethod__y176cJVuEee2q6FRxxB6Rg" implements="//@ContainsInterface.0/@HasMethod.3" WritesGlobalVariable="//@ContainsGlobalVariable.49" CallsMethod="//@ContainsFunctionBlock.4/@HasMethod.4 //@ContainsFunctionBlock.0/@HasMethod.8"/>
+    <HasMethod id="IECMethod__EHN1AJVvEee2q6FRxxB6Rg" Name="Conveyor1.holding IECMethod__EHN1AJVvEee2q6FRxxB6Rg" implements="//@ContainsInterface.0/@HasMethod.4" WritesGlobalVariable="//@ContainsGlobalVariable.41 //@ContainsGlobalVariable.40 //@ContainsGlobalVariable.42"/>
+    <HasMethod id="IECMethod__GhjJcJVvEee2q6FRxxB6Rg" Name="Conveyor1.resetting IECMethod__GhjJcJVvEee2q6FRxxB6Rg" implements="//@ContainsInterface.0/@HasMethod.5" WritesGlobalVariable="//@ContainsGlobalVariable.69"/>
+    <HasMethod id="IECMethod__H9EFMJVvEee2q6FRxxB6Rg" Name="Conveyor1.starting IECMethod__H9EFMJVvEee2q6FRxxB6Rg" implements="//@ContainsInterface.0/@HasMethod.6"/>
+    <HasMethod id="IECMethod__JMMx0JVvEee2q6FRxxB6Rg" Name="Conveyor1.stopping IECMethod__JMMx0JVvEee2q6FRxxB6Rg" implements="//@ContainsInterface.0/@HasMethod.7"/>
+    <HasMethod id="IECMethod__Kwi5cJVvEee2q6FRxxB6Rg" Name="Conveyor1.transportWPToRamp1 IECMethod__Kwi5cJVvEee2q6FRxxB6Rg" ReadsGlobalVariable="//@ContainsGlobalVariable.21 //@ContainsGlobalVariable.29 //@ContainsGlobalVariable.69 //@ContainsGlobalVariable.30 //@ContainsGlobalVariable.25 //@ContainsGlobalVariable.26" WritesGlobalVariable="//@ContainsGlobalVariable.69 //@ContainsGlobalVariable.40 //@ContainsGlobalVariable.42"/>
+    <HasMethod id="IECMethod__MIqi8JVvEee2q6FRxxB6Rg" Name="Conveyor1.transportWPToStart IECMethod__MIqi8JVvEee2q6FRxxB6Rg" ReadsGlobalVariable="//@ContainsGlobalVariable.18" WritesGlobalVariable="//@ContainsGlobalVariable.69 //@ContainsGlobalVariable.41"/>
+    <HasMethod id="IECMethod__NoSioJVvEee2q6FRxxB6Rg" Name="Conveyor1.unHolding IECMethod__NoSioJVvEee2q6FRxxB6Rg" implements="//@ContainsInterface.0/@HasMethod.8" CallsMethod="//@ContainsFunctionBlock.0/@HasMethod.9"/>
+  </ContainsFunctionBlock>
+  <ContainsFunctionBlock id="FunctionBlock__dGCVoZbFEeeJ8LwYReQ9UA" Name="Crane FunctionBlock__dGCVoZbFEeeJ8LwYReQ9UA">
+    <HasMethod id="IECMethod__39ayUJbGEeeSquziZesqIA" Name="Crane.aborting IECMethod__39ayUJbGEeeSquziZesqIA"/>
+    <HasMethod id="IECMethod__ETAO8JbHEeeSquziZesqIA" Name="Crane.clearing IECMethod__ETAO8JbHEeeSquziZesqIA"/>
+    <HasMethod id="IECMethod__YD1VIJbHEeeSquziZesqIA" Name="Crane.completing IECMethod__YD1VIJbHEeeSquziZesqIA"/>
+    <HasMethod id="IECMethod__iqIlcJbHEeeSquziZesqIA" Name="Crane.execute IECMethod__iqIlcJbHEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.9 //@ContainsGlobalVariable.12 //@ContainsGlobalVariable.48 //@ContainsGlobalVariable.10" WritesGlobalVariable="//@ContainsGlobalVariable.49" CallsMethod="//@ContainsFunctionBlock.4/@HasMethod.1 //@ContainsFunctionBlock.4/@HasMethod.4 //@ContainsFunctionBlock.1/@HasMethod.7 //@ContainsFunctionBlock.1/@HasMethod.5 //@ContainsFunctionBlock.1/@HasMethod.6 //@ContainsFunctionBlock.1/@HasMethod.14 //@ContainsFunctionBlock.1/@HasMethod.8 //@ContainsFunctionBlock.4/@HasMethod.3 //@ContainsFunctionBlock.1/@HasMethod.15"/>
+    <HasMethod id="IECMethod__xHpX4JbHEeeSquziZesqIA" Name="Crane.holding IECMethod__xHpX4JbHEeeSquziZesqIA" WritesGlobalVariable="//@ContainsGlobalVariable.34 //@ContainsGlobalVariable.35"/>
+    <HasMethod id="IECMethod__1ehRgJbHEeeSquziZesqIA" Name="Crane.intake IECMethod__1ehRgJbHEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.7" WritesGlobalVariable="//@ContainsGlobalVariable.33"/>
+    <HasMethod id="IECMethod__4oTF4JbHEeeSquziZesqIA" Name="Crane.lift IECMethod__4oTF4JbHEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.9" WritesGlobalVariable="//@ContainsGlobalVariable.32"/>
+    <HasMethod id="IECMethod__88NyIJbHEeeSquziZesqIA" Name="Crane.lower IECMethod__88NyIJbHEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.8" WritesGlobalVariable="//@ContainsGlobalVariable.32"/>
+    <HasMethod id="IECMethod__91zFgJbHEeeSquziZesqIA" Name="Crane.release IECMethod__91zFgJbHEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.7" WritesGlobalVariable="//@ContainsGlobalVariable.33"/>
+    <HasMethod id="IECMethod__E6iTkJbIEeeSquziZesqIA" Name="Crane.resetting IECMethod__E6iTkJbIEeeSquziZesqIA"/>
+    <HasMethod id="IECMethod__WFvbUJbIEeeSquziZesqIA" Name="Crane.starting IECMethod__WFvbUJbIEeeSquziZesqIA" CallsMethod="//@ContainsFunctionBlock.1/@HasMethod.16"/>
+    <HasMethod id="IECMethod__ZpoY0JbIEeeSquziZesqIA" Name="Crane.stopping IECMethod__ZpoY0JbIEeeSquziZesqIA"/>
+    <HasMethod id="IECMethod__GqNE8JbJEeeSquziZesqIA" Name="Crane.turnLeftToConveyor IECMethod__GqNE8JbJEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.11" WritesGlobalVariable="//@ContainsGlobalVariable.35"/>
+    <HasMethod id="IECMethod__H6uRoJbJEeeSquziZesqIA" Name="Crane.turnLeftToStack IECMethod__H6uRoJbJEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.12" WritesGlobalVariable="//@ContainsGlobalVariable.35"/>
+    <HasMethod id="IECMethod__JDZw8JbJEeeSquziZesqIA" Name="Crane.turnLeftToStamp IECMethod__JDZw8JbJEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.10" WritesGlobalVariable="//@ContainsGlobalVariable.35"/>
+    <HasMethod id="IECMethod__KKDP8JbJEeeSquziZesqIA" Name="Crane.turnRightToConveyor IECMethod__KKDP8JbJEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.11" WritesGlobalVariable="//@ContainsGlobalVariable.34"/>
+    <HasMethod id="IECMethod__LUdNkJbJEeeSquziZesqIA" Name="Crane.turnRightToStack IECMethod__LUdNkJbJEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.12">
+      <WritesGlobalVariable href="My.iecmodel#//@DeclaresGlobalVariable.34"/>
+      <WritesGlobalVariable href="#//@ContainsGlobalVariable.34"/>
+    </HasMethod>
+    <HasMethod id="IECMethod__Me2kIJbJEeeSquziZesqIA" Name="Crane.turnRightToStamp IECMethod__Me2kIJbJEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.10" WritesGlobalVariable="//@ContainsGlobalVariable.34"/>
+    <HasMethod id="IECMethod__lgXWQJbIEeeSquziZesqIA" Name="Crane.unHolding IECMethod__lgXWQJbIEeeSquziZesqIA"/>
+  </ContainsFunctionBlock>
+  <ContainsFunctionBlock id="FunctionBlock__fS09UZbFEeeJ8LwYReQ9UA" Name="Stack FunctionBlock__fS09UZbFEeeJ8LwYReQ9UA" Implements="//@ContainsInterface.0">
+    <HasMethod id="IECMethod__5HIzcJbGEeeSquziZesqIA" Name="Stack.aborting IECMethod__5HIzcJbGEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.0"/>
+    <HasMethod id="IECMethod__FgUWoJbHEeeSquziZesqIA" Name="Stack.clearing IECMethod__FgUWoJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.1"/>
+    <HasMethod id="IECMethod__XNwowJbHEeeSquziZesqIA" Name="Stack.completing IECMethod__XNwowJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.2"/>
+    <HasMethod id="IECMethod__jn3ZAJbHEeeSquziZesqIA" Name="Stack.execute IECMethod__jn3ZAJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.3" CallsMethod="//@ContainsFunctionBlock.4/@HasMethod.1 //@ContainsFunctionBlock.4/@HasMethod.4 //@ContainsFunctionBlock.4/@HasMethod.3 //@ContainsFunctionBlock.2/@HasMethod.6 //@ContainsFunctionBlock.2/@HasMethod.5 //@ContainsFunctionBlock.2/@HasMethod.11"/>
+    <HasMethod id="IECMethod__v-y5cJbHEeeSquziZesqIA" Name="Stack.holding IECMethod__v-y5cJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.4"/>
+    <HasMethod id="IECMethod__1KLjwJbIEeeSquziZesqIA" Name="Stack.offer IECMethod__1KLjwJbIEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.2" WritesGlobalVariable="//@ContainsGlobalVariable.31"/>
+    <HasMethod id="IECMethod__44clQJbIEeeSquziZesqIA" Name="Stack.release IECMethod__44clQJbIEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.3" WritesGlobalVariable="//@ContainsGlobalVariable.31"/>
+    <HasMethod id="IECMethod__GALF8JbIEeeSquziZesqIA" Name="Stack.resetting IECMethod__GALF8JbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.5"/>
+    <HasMethod id="IECMethod__U06FkJbIEeeSquziZesqIA" Name="Stack.starting IECMethod__U06FkJbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.6" CallsMethod="//@ContainsFunctionBlock.2/@HasMethod.5"/>
+    <HasMethod id="IECMethod__akCLkJbIEeeSquziZesqIA" Name="Stack.stopping IECMethod__akCLkJbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.7"/>
+    <HasMethod id="IECMethod__kvU64JbIEeeSquziZesqIA" Name="Stack.unHolding IECMethod__kvU64JbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.8"/>
+    <HasMethod id="IECMethod__BX-9YJbJEeeSquziZesqIA" Name="Stack.wait IECMethod__BX-9YJbJEeeSquziZesqIA" WritesGlobalVariable="//@ContainsGlobalVariable.47"/>
+  </ContainsFunctionBlock>
+  <ContainsFunctionBlock id="FunctionBlock__hJkcgZbFEeeJ8LwYReQ9UA" Name="Stamp FunctionBlock__hJkcgZbFEeeJ8LwYReQ9UA" Implements="//@ContainsInterface.0">
+    <HasMethod id="IECMethod__6TM98JbGEeeSquziZesqIA" Name="Stamp.aborting IECMethod__6TM98JbGEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.0"/>
+    <HasMethod id="IECMethod__JNWCAJbHEeeSquziZesqIA" Name="Stamp.clearing IECMethod__JNWCAJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.1"/>
+    <HasMethod id="IECMethod__WOvbwJbHEeeSquziZesqIA" Name="Stamp.completing IECMethod__WOvbwJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.2"/>
+    <HasMethod id="IECMethod__kbLsUJbHEeeSquziZesqIA" Name="Stamp.execute IECMethod__kbLsUJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.3" CallsMethod="//@ContainsFunctionBlock.4/@HasMethod.1 //@ContainsFunctionBlock.4/@HasMethod.4 //@ContainsFunctionBlock.4/@HasMethod.3 //@ContainsFunctionBlock.3/@HasMethod.8 //@ContainsFunctionBlock.3/@HasMethod.6 //@ContainsFunctionBlock.3/@HasMethod.13 //@ContainsFunctionBlock.3/@HasMethod.5 //@ContainsFunctionBlock.3/@HasMethod.7">
+      <WritesGlobalVariable href="My.iecmodel#//@DeclaresGlobalVariable.49"/>
+    </HasMethod>
+    <HasMethod id="IECMethod__u_OS0JbHEeeSquziZesqIA" Name="Stamp.holding IECMethod__u_OS0JbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.4"/>
+    <HasMethod id="IECMethod__u_KL8JbIEeeSquziZesqIA" Name="Stamp.lift IECMethod__u_KL8JbIEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.16" WritesGlobalVariable="//@ContainsGlobalVariable.38 //@ContainsGlobalVariable.39"/>
+    <HasMethod id="IECMethod__wofhQJbIEeeSquziZesqIA" Name="Stamp.lower IECMethod__wofhQJbIEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.17" WritesGlobalVariable="//@ContainsGlobalVariable.38 //@ContainsGlobalVariable.39"/>
+    <HasMethod id="IECMethod__ytPAMJbIEeeSquziZesqIA" Name="Stamp.offer IECMethod__ytPAMJbIEeeSquziZesqIA" WritesGlobalVariable="//@ContainsGlobalVariable.36 //@ContainsGlobalVariable.37"/>
+    <HasMethod id="IECMethod__3iVt8JbIEeeSquziZesqIA" Name="Stamp.release IECMethod__3iVt8JbIEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.14" WritesGlobalVariable="//@ContainsGlobalVariable.36 //@ContainsGlobalVariable.37"/>
+    <HasMethod id="IECMethod__G1j10JbIEeeSquziZesqIA" Name="Stamp.resetting IECMethod__G1j10JbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.5"/>
+    <HasMethod id="IECMethod__TBFXgJbIEeeSquziZesqIA" Name="Stamp.starting IECMethod__TBFXgJbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.6" CallsMethod="//@ContainsFunctionBlock.3/@HasMethod.7"/>
+    <HasMethod id="IECMethod__bgIAYJbIEeeSquziZesqIA" Name="Stamp.stopping IECMethod__bgIAYJbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.7"/>
+    <HasMethod id="IECMethod__j2oYUJbIEeeSquziZesqIA" Name="Stamp.unHolding IECMethod__j2oYUJbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.8"/>
+    <HasMethod id="IECMethod__DTMs4JbJEeeSquziZesqIA" Name="Stamp.wait IECMethod__DTMs4JbJEeeSquziZesqIA"/>
+  </ContainsFunctionBlock>
+  <ContainsFunctionBlock id="FunctionBlock__K4DIEJVNEeed_Iyh1NuRXg" Name="ConditionObserver FunctionBlock__K4DIEJVNEeed_Iyh1NuRXg">
+    <HasMethod id="IECMethod__zH2mUJVtEee2q6FRxxB6Rg" Name="ConditionObserver.addCondition IECMethod__zH2mUJVtEee2q6FRxxB6Rg" ReadsGlobalVariable="//@ContainsGlobalVariable.57 //@ContainsGlobalVariable.54" WritesGlobalVariable="//@ContainsGlobalVariable.52 //@ContainsGlobalVariable.49 //@ContainsGlobalVariable.50 //@ContainsGlobalVariable.55 //@ContainsGlobalVariable.51 //@ContainsGlobalVariable.56"/>
+    <HasMethod id="IECMethod__zlKNYJVtEee2q6FRxxB6Rg" Name="ConditionObserver.addNegativePreAndPostcondition IECMethod__zlKNYJVtEee2q6FRxxB6Rg" CallsMethod="//@ContainsFunctionBlock.4/@HasMethod.0"/>
+    <HasMethod id="IECMethod__O3f9MJVuEee2q6FRxxB6Rg" Name="ConditionObserver.addObjectsFromBuffer IECMethod__O3f9MJVuEee2q6FRxxB6Rg" ReadsGlobalVariable="//@ContainsGlobalVariable.55 //@ContainsGlobalVariable.56 //@ContainsGlobalVariable.57" WritesGlobalVariable="//@ContainsGlobalVariable.49 //@ContainsGlobalVariable.57" CallsMethod="//@ContainsFunctionBlock.4/@HasMethod.0"/>
+    <HasMethod id="IECMethod__b5cJgJVuEee2q6FRxxB6Rg" Name="ConditionObserver.addPositivePostcondition IECMethod__b5cJgJVuEee2q6FRxxB6Rg" CallsMethod="//@ContainsFunctionBlock.4/@HasMethod.0"/>
+    <HasMethod id="IECMethod__gZVcQJVuEee2q6FRxxB6Rg" Name="ConditionObserver.addPositivePrecondition IECMethod__gZVcQJVuEee2q6FRxxB6Rg" CallsMethod="//@ContainsFunctionBlock.4/@HasMethod.0"/>
+    <HasMethod id="IECMethod__lQ-goJVuEee2q6FRxxB6Rg" Name="checkConditions IECMethod__lQ-goJVuEee2q6FRxxB6Rg" WritesGlobalVariable="//@ContainsGlobalVariable.52 //@ContainsGlobalVariable.50 //@ContainsGlobalVariable.51 //@ContainsGlobalVariable.53"/>
+  </ContainsFunctionBlock>
+  <ContainsFunctionBlock id="FunctionBlock__iuWpAZbFEeeJ8LwYReQ9UA" Name="DiagnosisModule FunctionBlock__iuWpAZbFEeeJ8LwYReQ9UA">
+    <HasMethod id="IECMethod__PAI1IJbJEeeSquziZesqIA" Name="DiagnosisModule.executeFailureDiagnois IECMethod__PAI1IJbJEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.59 //@ContainsGlobalVariable.69" WritesGlobalVariable="//@ContainsGlobalVariable.60 //@ContainsGlobalVariable.61 //@ContainsGlobalVariable.62"/>
+  </ContainsFunctionBlock>
+  <ContainsFunctionBlock id="FunctionBlock__kYnLYZbFEeeJ8LwYReQ9UA" Name="SortingPlant FunctionBlock__kYnLYZbFEeeJ8LwYReQ9UA" Implements="//@ContainsInterface.0" InstantiatesFunctionBlock="//@ContainsFunctionBlock.0">
+    <HasMethod id="IECMethod__8I-z0JbGEeeSquziZesqIA" Name="SortingPlant.aborting IECMethod__8I-z0JbGEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.0"/>
+    <HasMethod id="IECMethod__KFQhcJbHEeeSquziZesqIA" Name="SortingPlant.clearing IECMethod__KFQhcJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.1"/>
+    <HasMethod id="IECMethod__VMq6wJbHEeeSquziZesqIA" Name="SortingPlant.completing IECMethod__VMq6wJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.2" WritesGlobalVariable="//@ContainsGlobalVariable.49" CallsMethod="//@ContainsFunctionBlock.4/@HasMethod.1 //@ContainsFunctionBlock.0/@HasMethod.2"/>
+    <HasMethod id="IECMethod__lVO5wJbHEeeSquziZesqIA" Name="SortingPlant.execute IECMethod__lVO5wJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.3" WritesGlobalVariable="//@ContainsGlobalVariable.49" CallsMethod="//@ContainsFunctionBlock.4/@HasMethod.4 //@ContainsFunctionBlock.4/@HasMethod.3 //@ContainsFunctionBlock.0/@HasMethod.3"/>
+    <HasMethod id="IECMethod__ticLwJbHEeeSquziZesqIA" Name="SortingPlant.holding IECMethod__ticLwJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.4" CallsMethod="//@ContainsFunctionBlock.0/@HasMethod.4"/>
+    <HasMethod id="IECMethod__HmQ6AJbIEeeSquziZesqIA" Name="SortingPlant.resetting IECMethod__HmQ6AJbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.5" CallsMethod="//@ContainsFunctionBlock.0/@HasMethod.5"/>
+    <HasMethod id="IECMethod__Rna14JbIEeeSquziZesqIA" Name="SortingPlant.starting IECMethod__Rna14JbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.6"/>
+    <HasMethod id="IECMethod__cmHYEJbIEeeSquziZesqIA" Name="SortingPlant.stopping IECMethod__cmHYEJbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.7"/>
+    <HasMethod id="IECMethod__iUhsYJbIEeeSquziZesqIA" Name="SortingPlant.unHolding IECMethod__iUhsYJbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.8" CallsMethod="//@ContainsFunctionBlock.0/@HasMethod.10"/>
+  </ContainsFunctionBlock>
+  <ContainsFunctionBlock id="FunctionBlock__l-07QZbFEeeJ8LwYReQ9UA" Name="StampingPlant FunctionBlock__l-07QZbFEeeJ8LwYReQ9UA" Implements="//@ContainsInterface.0" InstantiatesFunctionBlock="//@ContainsFunctionBlock.3 //@ContainsFunctionBlock.2 //@ContainsFunctionBlock.1">
+    <HasMethod id="IECMethod__9COwAJbGEeeSquziZesqIA" Name="StampingPlant.aborting IECMethod__9COwAJbGEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.0"/>
+    <HasMethod id="IECMethod__LOSmEJbHEeeSquziZesqIA" Name="StampingPlant.clearing IECMethod__LOSmEJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.1"/>
+    <HasMethod id="IECMethod__UXJA8JbHEeeSquziZesqIA" Name="StampingPlant.completing IECMethod__UXJA8JbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.2"/>
+    <HasMethod id="IECMethod__mWjz4JbHEeeSquziZesqIA" Name="StampingPlant.execute IECMethod__mWjz4JbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.3" WritesGlobalVariable="//@ContainsGlobalVariable.49" CallsMethod="//@ContainsFunctionBlock.4/@HasMethod.1 //@ContainsFunctionBlock.4/@HasMethod.4 //@ContainsFunctionBlock.4/@HasMethod.3 //@ContainsFunctionBlock.1/@HasMethod.3 //@ContainsFunctionBlock.2/@HasMethod.3 //@ContainsFunctionBlock.3/@HasMethod.3"/>
+    <HasMethod id="IECMethod__sWxC0JbHEeeSquziZesqIA" Name="StampingPlant.holding IECMethod__sWxC0JbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.4" CallsMethod="//@ContainsFunctionBlock.1/@HasMethod.4"/>
+    <HasMethod id="IECMethod__IV9RkJbIEeeSquziZesqIA" Name="StampingPlant.resetting IECMethod__IV9RkJbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.5" CallsMethod="//@ContainsFunctionBlock.2/@HasMethod.7 //@ContainsFunctionBlock.1/@HasMethod.9 //@ContainsFunctionBlock.3/@HasMethod.9"/>
+    <HasMethod id="IECMethod__QcukYJbIEeeSquziZesqIA" Name="StampingPlant.starting IECMethod__QcukYJbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.6" CallsMethod="//@ContainsFunctionBlock.3/@HasMethod.10 //@ContainsFunctionBlock.2/@HasMethod.8 //@ContainsFunctionBlock.1/@HasMethod.10"/>
+    <HasMethod id="IECMethod__dbBm0JbIEeeSquziZesqIA" Name="StampingPlant.stopping IECMethod__dbBm0JbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.7"/>
+    <HasMethod id="IECMethod__hPSioJbIEeeSquziZesqIA" Name="StampingPlant.unHolding IECMethod__hPSioJbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.8"/>
+  </ContainsFunctionBlock>
+  <ContainsFunctionBlock id="FunctionBlock__nXbF4ZbFEeeJ8LwYReQ9UA" Name="Condition FunctionBlock__nXbF4ZbFEeeJ8LwYReQ9UA">
+    <HasProperty id="IECProperty__WIPgQZbJEeeSquziZesqIA" Name="Condition.name IECProperty__WIPgQZbJEeeSquziZesqIA"/>
+    <HasProperty id="IECProperty__YkHs0ZbJEeeSquziZesqIA" Name="Condition.value IECProperty__YkHs0ZbJEeeSquziZesqIA"/>
+  </ContainsFunctionBlock>
+  <ContainsFunctionBlock id="FunctionBlock__qyllMZbFEeeJ8LwYReQ9UA" Name="UnitMode FunctionBlock__qyllMZbFEeeJ8LwYReQ9UA" Implements="//@ContainsInterface.1">
+    <HasMethod id="IECMethod__b_8TcJbJEeeSquziZesqIA" Name="UnitMode.Abort IECMethod__b_8TcJbJEeeSquziZesqIA" implements="//@ContainsInterface.1/@HasMethod.0"/>
+    <HasMethod id="IECMethod__eCUa4JbJEeeSquziZesqIA" Name="UnitMode.ActingStateCompleted IECMethod__eCUa4JbJEeeSquziZesqIA" implements="//@ContainsInterface.1/@HasMethod.1" ReadsProperty="//@ContainsFunctionBlock.9/@HasProperty.4" CallsMethod="//@ContainsFunctionBlock.9/@HasMethod.6"/>
+    <HasMethod id="IECMethod__gIbLwJbJEeeSquziZesqIA" Name="UnitMode.AllowsEntering IECMethod__gIbLwJbJEeeSquziZesqIA" implements="//@ContainsInterface.1/@HasMethod.2"/>
+    <HasMethod id="IECMethod__hdVJMJbJEeeSquziZesqIA" Name="UnitMode.Clear IECMethod__hdVJMJbJEeeSquziZesqIA" implements="//@ContainsInterface.1/@HasMethod.3" ReadsProperty="//@ContainsFunctionBlock.9/@HasProperty.4"/>
+    <HasMethod id="IECMethod__ihO2MJbJEeeSquziZesqIA" Name="UnitMode.Enter IECMethod__ihO2MJbJEeeSquziZesqIA" implements="//@ContainsInterface.1/@HasMethod.4"/>
+    <HasMethod id="IECMethod__jnD10JbJEeeSquziZesqIA" Name="UnitMode.Hold IECMethod__jnD10JbJEeeSquziZesqIA" implements="//@ContainsInterface.1/@HasMethod.5" ReadsProperty="//@ContainsFunctionBlock.9/@HasProperty.4"/>
+    <HasMethod id="IECMethod__kqXs8JbJEeeSquziZesqIA" Name="UnitMode.NextState IECMethod__kqXs8JbJEeeSquziZesqIA" implements="//@ContainsInterface.1/@HasMethod.6"/>
+    <HasMethod id="IECMethod__l_uWUJbJEeeSquziZesqIA" Name="UnitMode.Reset IECMethod__l_uWUJbJEeeSquziZesqIA" implements="//@ContainsInterface.1/@HasMethod.7" ReadsProperty="//@ContainsFunctionBlock.9/@HasProperty.4"/>
+    <HasMethod id="IECMethod__nOTCQJbJEeeSquziZesqIA" Name="UnitMode.Start IECMethod__nOTCQJbJEeeSquziZesqIA" implements="//@ContainsInterface.1/@HasMethod.8" ReadsProperty="//@ContainsFunctionBlock.9/@HasProperty.4"/>
+    <HasMethod id="IECMethod__oVvygJbJEeeSquziZesqIA" Name="UnitMode.Stop IECMethod__oVvygJbJEeeSquziZesqIA" implements="//@ContainsInterface.1/@HasMethod.9" ReadsProperty="//@ContainsFunctionBlock.9/@HasProperty.4"/>
+    <HasMethod id="IECMethod__pggVcJbJEeeSquziZesqIA" Name="UnitMode.Suspend IECMethod__pggVcJbJEeeSquziZesqIA" implements="//@ContainsInterface.1/@HasMethod.10" ReadsProperty="//@ContainsFunctionBlock.9/@HasProperty.4"/>
+    <HasMethod id="IECMethod__rN8HoJbJEeeSquziZesqIA" Name="UnitMode.UnHold IECMethod__rN8HoJbJEeeSquziZesqIA" implements="//@ContainsInterface.1/@HasMethod.11" ReadsProperty="//@ContainsFunctionBlock.9/@HasProperty.4"/>
+    <HasMethod id="IECMethod__scPt0JbJEeeSquziZesqIA" Name="UnitMode.UnSuspend IECMethod__scPt0JbJEeeSquziZesqIA" implements="//@ContainsInterface.1/@HasMethod.12" ReadsProperty="//@ContainsFunctionBlock.9/@HasProperty.4"/>
+    <HasProperty id="IECProperty__tizGMZbJEeeSquziZesqIA" Name="UnitMode.Active IECProperty__tizGMZbJEeeSquziZesqIA" implements="//@ContainsInterface.1/@HasProperty.0"/>
+    <HasProperty id="IECProperty__utn6kZbJEeeSquziZesqIA" Name="UnitMode.AllowsLeaving IECProperty__utn6kZbJEeeSquziZesqIA" implements="//@ContainsInterface.1/@HasProperty.1"/>
+    <HasProperty id="IECProperty__vwRDUZbJEeeSquziZesqIA" Name="UnitMode.CurrentState IECProperty__vwRDUZbJEeeSquziZesqIA" implements="//@ContainsInterface.1/@HasProperty.2"/>
+    <HasProperty id="IECProperty__wtrGwZbJEeeSquziZesqIA" Name="UnitMode.Name IECProperty__wtrGwZbJEeeSquziZesqIA" implements="//@ContainsInterface.1/@HasProperty.3"/>
+    <HasProperty id="IECProperty__x5eLgZbJEeeSquziZesqIA" Name="UnitMode.SupportedStates IECProperty__x5eLgZbJEeeSquziZesqIA" implements="//@ContainsInterface.1/@HasProperty.4"/>
+  </ContainsFunctionBlock>
+  <ContainsFunctionBlock id="FunctionBlock__s0oVcZbFEeeJ8LwYReQ9UA" Name="UnitModeManager FunctionBlock__s0oVcZbFEeeJ8LwYReQ9UA" InstantiatesInterface="//@ContainsInterface.1">
+    <HasMethod id="IECMethod__zoWvMJbJEeeSquziZesqIA" Name="UnitModeManager.AllowsSwitchingTo IECMethod__zoWvMJbJEeeSquziZesqIA" ReadsProperty="//@ContainsFunctionBlock.9/@HasProperty.1" CallsMethod="//@ContainsInterface.1/@HasMethod.2"/>
+    <HasMethod id="IECMethod__1pDboJbJEeeSquziZesqIA" Name="UnitModeManager.FindMode IECMethod__1pDboJbJEeeSquziZesqIA" ReadsProperty="//@ContainsInterface.1/@HasProperty.3"/>
+    <HasMethod id="IECMethod__2orsoJbJEeeSquziZesqIA" Name="UnitModeManager.Register IECMethod__2orsoJbJEeeSquziZesqIA" InstantiatesInterface="//@ContainsInterface.1" ReadsGlobalVariable="//@ContainsGlobalVariable.71" WritesProperty="//@ContainsInterface.1/@HasProperty.0"/>
+    <HasMethod id="IECMethod__4Al6wJbJEeeSquziZesqIA" Name="UnitModeManager.SwitchUnitMode IECMethod__4Al6wJbJEeeSquziZesqIA" InstantiatesFunctionBlock="//@ContainsFunctionBlock.9" ReadsGlobalVariable="//@ContainsGlobalVariable.71" ReadsProperty="//@ContainsInterface.1/@HasProperty.1" WritesProperty="//@ContainsInterface.1/@HasProperty.0" CallsMethod="//@ContainsFunctionBlock.10/@HasMethod.1 //@ContainsInterface.1/@HasMethod.2 //@ContainsInterface.1/@HasMethod.4"/>
+    <HasProperty id="IECProperty__5Knd4ZbJEeeSquziZesqIA" Name="UnitModeManager.ActiveUnitMode IECProperty__5Knd4ZbJEeeSquziZesqIA" HasDerivedType="//@ContainsInterface.1"/>
+    <HasProperty id="IECProperty__6XXk4ZbJEeeSquziZesqIA" Name="ActiveUnitModeNumber IECProperty__6XXk4ZbJEeeSquziZesqIA"/>
+  </ContainsFunctionBlock>
+  <ContainsFunctionBlock id="FunctionBlock__wXZRkZbFEeeJ8LwYReQ9UA" Name="PickAndPlaceUnit FunctionBlock__wXZRkZbFEeeJ8LwYReQ9UA" Implements="//@ContainsInterface.0" InstantiatesFunctionBlock="//@ContainsFunctionBlock.7 //@ContainsFunctionBlock.6">
+    <HasMethod id="IECMethod__AtYMEJbHEeeSquziZesqIA" Name="PickAndPlaceUnit.aborting IECMethod__AtYMEJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.0"/>
+    <HasMethod id="IECMethod__MG1XoJbHEeeSquziZesqIA" Name="PickAndPlaceUnit.clearing IECMethod__MG1XoJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.1"/>
+    <HasMethod id="IECMethod__TBQMEJbHEeeSquziZesqIA" Name="PickAndPlaceUnit.completing IECMethod__TBQMEJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.2" CallsMethod="//@ContainsFunctionBlock.6/@HasMethod.2"/>
+    <HasMethod id="IECMethod__nKgZUJbHEeeSquziZesqIA" Name="PickAndPlaceUnit.execute IECMethod__nKgZUJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.3" WritesGlobalVariable="//@ContainsGlobalVariable.49" CallsMethod="//@ContainsFunctionBlock.4/@HasMethod.1 //@ContainsFunctionBlock.4/@HasMethod.4 //@ContainsFunctionBlock.4/@HasMethod.3 //@ContainsFunctionBlock.7/@HasMethod.3 //@ContainsFunctionBlock.6/@HasMethod.3"/>
+    <HasMethod id="IECMethod__rN5WQJbHEeeSquziZesqIA" Name="PickAndPlaceUnit.holding IECMethod__rN5WQJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.4" CallsMethod="//@ContainsFunctionBlock.6/@HasMethod.4 //@ContainsFunctionBlock.7/@HasMethod.4"/>
+    <HasMethod id="IECMethod__J-ri4JbIEeeSquziZesqIA" Name="PickAndPlaceUnit.resetting IECMethod__J-ri4JbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.5" CallsMethod="//@ContainsFunctionBlock.7/@HasMethod.5 //@ContainsFunctionBlock.6/@HasMethod.5"/>
+    <HasMethod id="IECMethod__OxX10JbIEeeSquziZesqIA" Name="PickAndPlaceUnit.starting IECMethod__OxX10JbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.6" ReadsGlobalVariable="//@ContainsGlobalVariable.0" CallsMethod="//@ContainsFunctionBlock.7/@HasMethod.6"/>
+    <HasMethod id="IECMethod__eSrnkJbIEeeSquziZesqIA" Name="PickAndPlaceUnit.stopping IECMethod__eSrnkJbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.7"/>
+    <HasMethod id="IECMethod__gQBeAJbIEeeSquziZesqIA" Name="PickAndPlaceUnit.unHolding IECMethod__gQBeAJbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.8" CallsMethod="//@ContainsFunctionBlock.6/@HasMethod.8"/>
+  </ContainsFunctionBlock>
+  <ContainsFunctionBlock id="FunctionBlock__EJO6AQTHEeifg6bWtx8h2A" Name="StartChecker FunctionBlock__EJO6AQTHEeifg6bWtx8h2A" ReadsGlobalVariable="//@ContainsGlobalVariable.1 //@ContainsGlobalVariable.0"/>
+  <ContainsGlobalVariable id="GlobalVariable__23OI8JVKEeed_Iyh1NuRXg" Name="in_MagazinStartknopf GlobalVariable__23OI8JVKEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__-Tg7YZVKEeed_Iyh1NuRXg" Name="in_MagazinNotaus GlobalVariable__-Tg7YZVKEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable___wyKoZVKEeed_Iyh1NuRXg" Name="in_MagazinSchieberAusgefahren GlobalVariable___wyKoZVKEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__AFAuMZVLEeed_Iyh1NuRXg" Name="in_MagazinSchieberNichtAusgefahren GlobalVariable__AFAuMZVLEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__Am3eEZVLEeed_Iyh1NuRXg" Name="in_MagazinInduktiverSensor GlobalVariable__Am3eEZVLEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__QQjIsZVLEeed_Iyh1NuRXg" Name="in_MagazinOptischerSensor GlobalVariable__QQjIsZVLEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__RntI4ZVLEeed_Iyh1NuRXg" Name="in_MagazinWerkstueckGriffbereit GlobalVariable__RntI4ZVLEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__SpHikZVLEeed_Iyh1NuRXg" Name="in_KranAngesaugt GlobalVariable__SpHikZVLEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__TCcokZVLEeed_Iyh1NuRXg" Name="in_KranUnten GlobalVariable__TCcokZVLEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__TUcXgZVLEeed_Iyh1NuRXg" Name="in_KranOben GlobalVariable__TUcXgZVLEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__Tj_2cZVLEeed_Iyh1NuRXg" Name="in_KranZeigtAufStempel GlobalVariable__Tj_2cZVLEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__T0cGMZVLEeed_Iyh1NuRXg" Name="in_KranZeigtAufLaufband GlobalVariable__T0cGMZVLEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__UOyf4ZVLEeed_Iyh1NuRXg" Name="in_KranZeigtAufMagazin GlobalVariable__UOyf4ZVLEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__W7qgYZVMEeed_Iyh1NuRXg" Name="in_StempelSchieberAusgefahren GlobalVariable__W7qgYZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__XQe50ZVMEeed_Iyh1NuRXg" Name="in_StempelSchieberEingefahren GlobalVariable__XQe50ZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__XeybkZVMEeed_Iyh1NuRXg" Name="in_StempelWerkstueckVorhanden GlobalVariable__XeybkZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__XyFLAZVMEeed_Iyh1NuRXg" Name="in_StempelOben GlobalVariable__XyFLAZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__YAlhEZVMEeed_Iyh1NuRXg" Name="in_StempelUnten GlobalVariable__YAlhEZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__YiJWAZVMEeed_Iyh1NuRXg" Name="in_Sortierband_LichttasterKranInterface GlobalVariable__YiJWAZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__YzlrUZVMEeed_Iyh1NuRXg" Name="in_Sortierband_KapazitiverSensorKranInterface GlobalVariable__YzlrUZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__h5-oEZVMEeed_Iyh1NuRXg" Name="in_Sortierband_InduktiverSensorPusher1 GlobalVariable__h5-oEZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__iGbIoZVMEeed_Iyh1NuRXg" Name="in_Sortierband_LichttasterPusher1 GlobalVariable__iGbIoZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__fqyzsZVMEeed_Iyh1NuRXg" Name="in_Sortierband_InduktiverSensorPusher2 GlobalVariable__fqyzsZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__f-2YIZVMEeed_Iyh1NuRXg" Name="in_Sortierband_LichttasterPusher2 GlobalVariable__f-2YIZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__gMlSIZVMEeed_Iyh1NuRXg" Name="in_Sortierband_LichttasterSlide3 GlobalVariable__gMlSIZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__ggNYwZVMEeed_Iyh1NuRXg" Name="in_Sortierband_Pusher1Ausgefahren GlobalVariable__ggNYwZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__guNYgZVMEeed_Iyh1NuRXg" Name="in_Sortierband_Pusher1Eingefahren GlobalVariable__guNYgZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__g9lRQZVMEeed_Iyh1NuRXg" Name="in_Sortierband_Pusher2Ausgefahren GlobalVariable__g9lRQZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__hNofcZVMEeed_Iyh1NuRXg" Name="in_Sortierband_Pusher2Eingefahren GlobalVariable__hNofcZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__hn9rAZVMEeed_Iyh1NuRXg" Name="in_Sortierband_Lichtschranke3 GlobalVariable__hn9rAZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__tIJJoZVMEeed_Iyh1NuRXg" Name="in_Magazin_SchalterManAuto GlobalVariable__tIJJoZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__u7kPEZVMEeed_Iyh1NuRXg" Name="out_MagazinSchieber GlobalVariable__u7kPEZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__xCNLcZVMEeed_Iyh1NuRXg" Name="out_KranSenken GlobalVariable__xCNLcZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__xXCzAZVMEeed_Iyh1NuRXg" Name="out_KranVakuumAn GlobalVariable__xXCzAZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__vZHGsZVMEeed_Iyh1NuRXg" Name="out_KranDreheRechts GlobalVariable__vZHGsZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__wxgdAZVMEeed_Iyh1NuRXg" Name="out_KranDreheLinks GlobalVariable__wxgdAZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__vwTesZVMEeed_Iyh1NuRXg" Name="out_StempelSchieberAusfahren GlobalVariable__vwTesZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__wc8iQZVMEeed_Iyh1NuRXg" Name="out_StempelSchieberEinfahren GlobalVariable__wc8iQZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__wKrtkZVMEeed_Iyh1NuRXg" Name="out_StempelStempeln GlobalVariable__wKrtkZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__6H7Z0ZVMEeed_Iyh1NuRXg" Name="out_StempelStempelnDruck GlobalVariable__6H7Z0ZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__9dAfQZVMEeed_Iyh1NuRXg" Name="out_SortierbandDreheVorwaerts GlobalVariable__9dAfQZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__9-mwcZVMEeed_Iyh1NuRXg" Name="out_SortierbandDreheRueckwaerts GlobalVariable__9-mwcZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__-KP_wZVMEeed_Iyh1NuRXg" Name="out_SortierbandPusher1 GlobalVariable__-KP_wZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__-ZwbYZVMEeed_Iyh1NuRXg" Name="out_SortierbandPusher2 GlobalVariable__-ZwbYZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__89X88ZVMEeed_Iyh1NuRXg" Name="test_Sicherheitstuer_start GlobalVariable__89X88ZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__-p03sZVMEeed_Iyh1NuRXg" Name="test_Sicherheitstuer_auto_manuell GlobalVariable__-p03sZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__-1xB8ZVMEeed_Iyh1NuRXg" Name="test_test2 GlobalVariable__-1xB8ZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__8q1bcZVMEeed_Iyh1NuRXg" Name="v_MagazinWarten GlobalVariable__8q1bcZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__8QDj8ZVMEeed_Iyh1NuRXg" Name="v_KranAngesaugt GlobalVariable__8QDj8ZVMEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__7-ItgZVMEeed_Iyh1NuRXg" Name="m_conditionObserver GlobalVariable__7-ItgZVMEeed_Iyh1NuRXg" HasDerivedType="//@ContainsFunctionBlock.4"/>
+  <ContainsGlobalVariable id="GlobalVariable__PmPVgZVNEeed_Iyh1NuRXg" Name="m_condPropertyNames GlobalVariable__PmPVgZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__PzSTAZVNEeed_Iyh1NuRXg" Name="m_condPropertyValues GlobalVariable__PzSTAZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__N6x5QZVNEeed_Iyh1NuRXg" Name="m_counterNewConditions GlobalVariable__N6x5QZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__QGvagZVNEeed_Iyh1NuRXg" Name="m_deleteConditions GlobalVariable__QGvagZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__O8sCMZVNEeed_Iyh1NuRXg" Name="m_isReadingInformation GlobalVariable__O8sCMZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__PMRWUZVNEeed_Iyh1NuRXg" Name="m_condPropertyNamesBuffer GlobalVariable__PMRWUZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__QUjNAZVNEeed_Iyh1NuRXg" Name="m_condPropertyValuesBuffer GlobalVariable__QUjNAZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__OwpKQZVNEeed_Iyh1NuRXg" Name="m_counterNewConditionsBuffer GlobalVariable__OwpKQZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__OLRMUZVNEeed_Iyh1NuRXg" Name="m_isFailure GlobalVariable__OLRMUZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__OaRRoZVNEeed_Iyh1NuRXg" Name="m_failurePart GlobalVariable__OaRRoZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__b-UsgZVNEeed_Iyh1NuRXg" Name="m_failureRecoveryStrategy GlobalVariable__b-UsgZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__brG1kZVNEeed_Iyh1NuRXg" Name="m_isFailureMessage GlobalVariable__brG1kZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__ciaRAZVNEeed_Iyh1NuRXg" Name="m_failureMessage GlobalVariable__ciaRAZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__cWcRkZVNEeed_Iyh1NuRXg" Name="m_startDiagnosis GlobalVariable__cWcRkZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__c0vXIZVNEeed_Iyh1NuRXg" Name="m_startRecovery GlobalVariable__c0vXIZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__baN54ZVNEeed_Iyh1NuRXg" Name="m_recoveryFinished GlobalVariable__baN54ZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__lK80IZVNEeed_Iyh1NuRXg" Name="m_restartProduction GlobalVariable__lK80IZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__k6um0ZVNEeed_Iyh1NuRXg" Name="m_productionStarted GlobalVariable__k6um0ZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__kmk7wZVNEeed_Iyh1NuRXg" Name="m_startingFinished GlobalVariable__kmk7wZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__kIOL0ZVNEeed_Iyh1NuRXg" Name="m_Conveyor1WPBeforePusher1 GlobalVariable__kIOL0ZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__j70HgZVNEeed_Iyh1NuRXg" Name="test_OMACState GlobalVariable__j70HgZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__jkwSYZVNEeed_Iyh1NuRXg" Name="gc_usiMaxModes GlobalVariable__jkwSYZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__q4b7YZVNEeed_Iyh1NuRXg" Name="gc_maxObjectsArray GlobalVariable__q4b7YZVNEeed_Iyh1NuRXg"/>
+</IECReporitory:Repository>

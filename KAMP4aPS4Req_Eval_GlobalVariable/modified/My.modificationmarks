@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<modificationmarks:APSReqSoftwareModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IECModel="http://sdq.ipd.kit.edu/IECModel" xmlns:IECModificationmarks="http://sdq.ipd.kit.edu/IECModificationmarks" xmlns:IECReporitory="http://sdq.ipd.kit.edu/IECRepository" xmlns:apssoftwareoptions="http://www.example.org/apssoftwareoptions" xmlns:modificationmarks="http://sdq.ipd.kit.edu/KAMP4aPS4ReqSoftwareModificationmarks/1.0" xmlns:requirements="http://toometa.de/requirements/0.6">
+  <seedModifications xsi:type="modificationmarks:APSReqSoftwareSeedModifications">
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
+    </globalVariableModifications>
+    <requirementModifications>
+      <affectedElement xsi:type="requirements:FunctionalRequirement" href="My.requirements#_kxrMsVHzEeidD7qrvv2gsQ"/>
+    </requirementModifications>
+  </seedModifications>
+  <changePropagationSteps xsi:type="modificationmarks:APSReqSoftwareChangePropagationDueToSpecificationDependencies">
+    <optionModifications toolderived="true">
+      <affectedElement xsi:type="apssoftwareoptions:APSReqGlobalVariableOption" href="My.options#_o9WjF1HzEeidD7qrvv2gsQ"/>
+      <causingElements xsi:type="requirements:FunctionalRequirement" href="My.requirements#_kxrMsVHzEeidD7qrvv2gsQ"/>
+    </optionModifications>
+    <iecComponentModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
+      <causingElements xsi:type="apssoftwareoptions:APSReqGlobalVariableOption" href="My.options#_o9WjF1HzEeidD7qrvv2gsQ"/>
+    </iecComponentModifications>
+  </changePropagationSteps>
+  <changePropagationSteps xsi:type="IECModificationmarks:IECChangePropagationDueToDataDependency">
+    <functionBlockModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.12"/>
+      <causingElements xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
+    </functionBlockModifications>
+    <programModifications toolderived="true">
+      <affectedElement xsi:type="IECModel:Program" href="My.iecmodel#//@InstantiatesProgram.0"/>
+      <causingElements xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
+    </programModifications>
+    <configurationModifications toolderived="true">
+      <affectedElement xsi:type="IECModel:Configuration" href="My.iecmodel#/"/>
+      <causingElements xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
+    </configurationModifications>
+    <methodModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.11/@HasMethod.6"/>
+      <causingElements xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
+    </methodModifications>
+  </changePropagationSteps>
+</modificationmarks:APSReqSoftwareModificationRepository>

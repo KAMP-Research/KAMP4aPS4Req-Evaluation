@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ASCII"?>
+<IECModificationmarks:IECModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IECModel="http://sdq.ipd.kit.edu/IECModel" xmlns:IECModificationmarks="http://sdq.ipd.kit.edu/IECModificationmarks" xmlns:IECReporitory="http://sdq.ipd.kit.edu/IECRepository">
+  <seedModifications xsi:type="IECModificationmarks:IECSeedModifications">
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
+    </globalVariableModifications>
+  </seedModifications>
+  <changePropagationSteps xsi:type="IECModificationmarks:IECChangePropagationDueToDataDependency">
+    <functionBlockModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.12"/>
+      <causingElements xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
+    </functionBlockModifications>
+    <programModifications toolderived="true">
+      <affectedElement xsi:type="IECModel:Program" href="My.iecmodel#//@InstantiatesProgram.0"/>
+      <causingElements xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
+    </programModifications>
+    <configurationModifications toolderived="true">
+      <affectedElement xsi:type="IECModel:Configuration" href="My.iecmodel#/"/>
+      <causingElements xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
+    </configurationModifications>
+    <methodModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.11/@HasMethod.6"/>
+      <causingElements xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
+    </methodModifications>
+  </changePropagationSteps>
+</IECModificationmarks:IECModificationRepository>
