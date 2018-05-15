@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IECModel:Configuration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IECModel="http://sdq.ipd.kit.edu/IECModel" xmlns:IECReporitory="http://sdq.ipd.kit.edu/IECRepository" id="Configuration__2TqI4JVKEeed_Iyh1NuRXg" Name=" Configuration__2TqI4JVKEeed_Iyh1NuRXg">
+  <InstantiatesProgram id="Program__P1UlQJVLEeed_Iyh1NuRXg" Name=" Program__P1UlQJVLEeed_Iyh1NuRXg">
+    <InstantiatesInterface href="My.iecrepository#//@ContainsInterface.1"/>
+    <InstantiatesFunctionBlock href="My.iecrepository#//@ContainsFunctionBlock.9"/>
+    <InstantiatesFunctionBlock href="My.iecrepository#//@ContainsFunctionBlock.10"/>
+    <InstantiatesFunctionBlock href="My.iecrepository#//@ContainsFunctionBlock.11"/>
+    <InstantiatesFunctionBlock href="My.iecrepository#//@ContainsFunctionBlock.5"/>
+    <ReadsGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.0"/>
+    <ReadsGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.57"/>
+    <ReadsGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.54"/>
+    <ReadsGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.58"/>
+    <ReadsGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.64"/>
+    <ReadsGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.60"/>
+    <ReadsGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.66"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.49"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.67"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.63"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.65"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.58"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.59"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.60"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.61"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.62"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.64"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.66"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.68"/>
+    <ReadsProperty xsi:type="IECReporitory:IECProperty" href="My.iecrepository#//@ContainsFunctionBlock.10/@HasProperty.0"/>
+    <ReadsProperty xsi:type="IECReporitory:IECAbstractProperty" href="My.iecrepository#//@ContainsInterface.1/@HasProperty.2"/>
+    <CallsMethod xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.10/@HasMethod.2"/>
+    <CallsMethod xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.4/@HasMethod.5"/>
+    <CallsMethod xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.4/@HasMethod.2"/>
+    <CallsMethod xsi:type="IECReporitory:IECAbstractMethod" href="My.iecrepository#//@ContainsInterface.1/@HasMethod.8"/>
+    <CallsMethod xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.11/@HasMethod.6"/>
+    <CallsMethod xsi:type="IECReporitory:IECAbstractMethod" href="My.iecrepository#//@ContainsInterface.1/@HasMethod.1"/>
+    <CallsMethod xsi:type="IECReporitory:IECAbstractMethod" href="My.iecrepository#//@ContainsInterface.1/@HasMethod.5"/>
+    <CallsMethod xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.11/@HasMethod.3"/>
+    <CallsMethod xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.11/@HasMethod.4"/>
+    <CallsMethod xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.11/@HasMethod.8"/>
+    <CallsMethod xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.11/@HasMethod.2"/>
+    <CallsMethod xsi:type="IECReporitory:IECAbstractMethod" href="My.iecrepository#//@ContainsInterface.1/@HasMethod.7"/>
+    <CallsFunction href="My.iecrepository#//@ContainsFunction.0"/>
+  </InstantiatesProgram>
+</IECModel:Configuration>

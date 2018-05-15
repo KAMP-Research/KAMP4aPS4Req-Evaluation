@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<IECModificationmarks:IECModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IECModel="http://sdq.ipd.kit.edu/IECModel" xmlns:IECModificationmarks="http://sdq.ipd.kit.edu/IECModificationmarks" xmlns:IECReporitory="http://sdq.ipd.kit.edu/IECRepository">
+  <seedModifications xsi:type="IECModificationmarks:IECSeedModifications">
+    <functionModifications>
+      <affectedElement xsi:type="IECReporitory:Function" href="My.iecrepository#//@ContainsFunction.0"/>
+    </functionModifications>
+    <functionModifications>
+      <affectedElement xsi:type="IECReporitory:Function" href="My.iecrepository#//@ContainsFunction.0"/>
+    </functionModifications>
+    <functionModifications>
+      <affectedElement xsi:type="IECReporitory:Function" href="My.iecrepository#//@ContainsFunction.0"/>
+    </functionModifications>
+  </seedModifications>
+  <changePropagationSteps xsi:type="IECModificationmarks:IECChangePropagationDueToDataDependency">
+    <functionBlockModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.12"/>
+      <causingElements xsi:type="IECReporitory:Function" href="My.iecrepository#//@ContainsFunction.0"/>
+    </functionBlockModifications>
+    <functionModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:Function" href="My.iecrepository#//@ContainsFunction.1"/>
+      <causingElements xsi:type="IECReporitory:Function" href="My.iecrepository#//@ContainsFunction.0"/>
+    </functionModifications>
+    <programModifications toolderived="true">
+      <affectedElement xsi:type="IECModel:Program" href="My.iecmodel#//@InstantiatesProgram.0"/>
+      <causingElements xsi:type="IECReporitory:Function" href="My.iecrepository#//@ContainsFunction.0"/>
+    </programModifications>
+    <methodModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.11/@HasMethod.6"/>
+      <causingElements xsi:type="IECReporitory:Function" href="My.iecrepository#//@ContainsFunction.0"/>
+    </methodModifications>
+  </changePropagationSteps>
+</IECModificationmarks:IECModificationRepository>
