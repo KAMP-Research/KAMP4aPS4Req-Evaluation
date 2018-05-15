@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirements:ReqRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apssoftwareoptions="http://www.example.org/apssoftwareoptions" xmlns:decisions="http://toometa.de/decisions/0.6" xmlns:requirements="http://toometa.de/requirements/0.6" id="_qOd7oD5iEeihasksNa97KA" description="aPS Requirements">
+  <systemReqSection id="_AruWYj5kEeihasksNa97KA">
+    <systemRequirements xsi:type="requirements:FunctionalRequirement" id="_4zcVET5vEeihasksNa97KA" specification="Black and metallic workpieces are processed">
+      <triggerOf xsi:type="decisions:TextDecision" href="My.decisions#_Sy8kAD5wEeihasksNa97KA"/>
+      <selected xsi:type="decisions:TextDecision" href="My.decisions#_Sy8kAD5wEeihasksNa97KA"/>
+    </systemRequirements>
+    <systemRequirements xsi:type="requirements:FunctionalRequirement" id="_jnV-wUZGEeiaS_YE-7PLjQ" triggerOf="_wMI8EUZGEeiaS_YE-7PLjQ" specification="Crane transports workpieces: Conveyor, Stamp, Stack"/>
+    <systemRequirements xsi:type="requirements:FunctionalRequirement" id="_wMI8EUZGEeiaS_YE-7PLjQ" triggeredBy="_jnV-wUZGEeiaS_YE-7PLjQ" specification="Crane can have 3 positions">
+      <triggerOf xsi:type="decisions:TextDecision" href="My.decisions#_FX2E0EZHEeiaS_YE-7PLjQ"/>
+      <selected xsi:type="decisions:TextDecision" href="My.decisions#_FX2E0EZHEeiaS_YE-7PLjQ"/>
+    </systemRequirements>
+    <systemRequirements xsi:type="requirements:FunctionalRequirement" id="_RPuCQVHuEeidD7qrvv2gsQ" specification="Conveyor functionality set by MyModule FB">
+      <resolvedBy xsi:type="apssoftwareoptions:APSReqFunctionBlockOption" href="My.options#_Yge6QlHuEeidD7qrvv2gsQ"/>
+    </systemRequirements>
+  </systemReqSection>
+</requirements:ReqRepository>
