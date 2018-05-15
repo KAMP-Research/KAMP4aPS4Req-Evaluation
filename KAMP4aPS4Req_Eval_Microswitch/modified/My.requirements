@@ -16,7 +16,6 @@
     </systemRequirements>
     <systemRequirements xsi:type="requirements:QualityRequirement" id="_PKh4IkZNEeiaS_YE-7PLjQ" specification="Increase exactness of crane position">
       <couldBeResolvedBy xsi:type="decisions:TextDecision" href="My.decisions#_FX2E0EZHEeiaS_YE-7PLjQ"/>
-      <selected xsi:type="decisions:TextDecision" href="My.decisions#_FX2E0EZHEeiaS_YE-7PLjQ"/>
     </systemRequirements>
   </systemReqSection>
 </requirements:ReqRepository>

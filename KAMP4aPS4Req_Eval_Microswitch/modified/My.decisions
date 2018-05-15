@@ -8,12 +8,9 @@
   </decisions>
   <decisions xsi:type="decisions:TextDecision" id="_FX2E0EZHEeiaS_YE-7PLjQ" description="Crane position identified using potentiometer">
     <resolves xsi:type="requirements:FunctionalRequirement" href="My.requirements#_wMI8EUZGEeiaS_YE-7PLjQ"/>
-    <resolvedBy xsi:type="apssoftwareoptions:APSReqGlobalVariableOption" href="My.options#_C_fyp0b5Eeie4OLCghaIUQ"/>
-    <resolvedBy xsi:type="apssoftwareoptions:APSReqGlobalVariableOption" href="My.options#_Eth6Z0b8Eeie4OLCghaIUQ"/>
     <couldResolve xsi:type="requirements:QualityRequirement" href="My.requirements#_PKh4IkZNEeiaS_YE-7PLjQ"/>
-    <selected xsi:type="apssoftwareoptions:APSReqGlobalVariableOption" href="My.options#_C_fyp0b5Eeie4OLCghaIUQ"/>
     <selected xsi:type="apssoftwareoptions:APSReqGlobalVariableOption" href="My.options#_Eth6Z0b8Eeie4OLCghaIUQ"/>
+    <selected xsi:type="apssoftwareoptions:APSReqGlobalVariableOption" href="My.options#_F9u261hgEeizNtp6wyQ6QQ"/>
     <selectedBy xsi:type="requirements:FunctionalRequirement" href="My.requirements#_wMI8EUZGEeiaS_YE-7PLjQ"/>
-    <selectedBy xsi:type="requirements:QualityRequirement" href="My.requirements#_PKh4IkZNEeiaS_YE-7PLjQ"/>
   </decisions>
 </decisions:DecisionRepository>

@@ -26,8 +26,7 @@
   <options xsi:type="apssoftwareoptions:APSReqGlobalVariableOption" id="_2bo5d0ZIEeiaS_YE-7PLjQ" description="Inductive sensor Global Variable">
     <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.4"/>
   </options>
-  <options xsi:type="apssoftwareoptions:APSReqGlobalVariableOption" id="_Eth6Z0b8Eeie4OLCghaIUQ" description="Crane positions Global Variables" optionType="Remove">
-    <resolves xsi:type="decisions:TextDecision" href="My.decisions#_FX2E0EZHEeiaS_YE-7PLjQ"/>
+  <options xsi:type="apssoftwareoptions:APSReqGlobalVariableOption" id="_Eth6Z0b8Eeie4OLCghaIUQ" description="Crane positions Global Variables">
     <selectedBy xsi:type="decisions:TextDecision" href="My.decisions#_FX2E0EZHEeiaS_YE-7PLjQ"/>
     <selectedBy xsi:type="decisions:TextDecision" href="My.decisions#_FX2E0EZHEeiaS_YE-7PLjQ"/>
     <globalVariables href="My.iecrepository#//@ContainsGlobalVariable.11"/>
