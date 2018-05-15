@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ASCII"?>
+<modificationmarks:APSReqHardwareModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BusComponents="edu.kit.ipd.sdq.kaps.xppu.buscomponents" xmlns:ComponentRepository="edu.kit.ipd.sdq.kaps.xppu.componentrepository" xmlns:ElectronicComponents="edu.kit.ipd.sdq.kaps.xppu.electroniccomponents" xmlns:InterfaceRepository="edu.kit.ipd.sdq.kaps.xppu.interfacerepository" xmlns:KAMP4aPSModificationmarks="http://sdq.ipd.kit.edu/KAMP4aPSModificationmarks/1.0" xmlns:MechanicalComponents="edu.kit.ipd.sdq.kaps.xppu.mechanicalcomponents" xmlns:ModuleRepository="edu.kit.ipd.sdq.kaps.xppu.modulerepository" xmlns:decisions="http://toometa.de/decisions/0.6" xmlns:modificationmarks="http://sdq.ipd.kit.edu/KAMP4aPS4ReqHardwareModificationmarks/1.0">
+  <seedModifications xsi:type="modificationmarks:APSReqHardwareSeedModifications">
+    <decisionModifications>
+      <affectedElement xsi:type="decisions:TextDecision" href="My.decisions#_FX2E0EZHEeiaS_YE-7PLjQ"/>
+    </decisionModifications>
+  </seedModifications>
+  <changePropagationSteps xsi:type="modificationmarks:APSReqHardwareChangePropagationDueToSpecificationDependencies">
+    <entityModifications toolderived="true">
+      <affectedElement xsi:type="ModuleRepository:PotentiometerModule" href="My.aps#_eHTXYoi5EeedS_UHHgW63w"/>
+      <causingElements xsi:type="decisions:TextDecision" href="My.decisions#_FX2E0EZHEeiaS_YE-7PLjQ"/>
+    </entityModifications>
+  </changePropagationSteps>
+  <changePropagationSteps xsi:type="KAMP4aPSModificationmarks:ChangePropagationDueToHardwareChange">
+    <interfaceModifications id="_s3sCioi5EeedS_UHHgW63w_Pot_To_Table" toolderived="true">
+      <affectedElement xsi:type="InterfaceRepository:Fixture" href="My.aps#_s3sCioi5EeedS_UHHgW63w"/>
+      <causingElements xsi:type="ModuleRepository:PotentiometerModule" href="My.aps#_eHTXYoi5EeedS_UHHgW63w"/>
+    </interfaceModifications>
+    <interfaceModifications id="_4EwX5oi5EeedS_UHHgW63w_Controller_To_Poti" toolderived="true">
+      <affectedElement xsi:type="InterfaceRepository:SignalInterface" href="My.aps#_4EwX5oi5EeedS_UHHgW63w"/>
+      <causingElements xsi:type="ModuleRepository:PotentiometerModule" href="My.aps#_eHTXYoi5EeedS_UHHgW63w"/>
+    </interfaceModifications>
+    <componentModifications id="_mn1OMIi5EeedS_UHHgW63w_PotiFix" toolderived="true">
+      <affectedElement xsi:type="ComponentRepository:Fixture" href="My.aps#_mn1OMIi5EeedS_UHHgW63w"/>
+      <causingElements xsi:type="ModuleRepository:PotentiometerModule" href="My.aps#_eHTXYoi5EeedS_UHHgW63w"/>
+    </componentModifications>
+    <componentModifications id="_ijxi-Ii5EeedS_UHHgW63w_Poti" toolderived="true">
+      <affectedElement xsi:type="ElectronicComponents:Potentiometer" href="My.aps#_ijxi-Ii5EeedS_UHHgW63w"/>
+      <causingElements xsi:type="ModuleRepository:PotentiometerModule" href="My.aps#_eHTXYoi5EeedS_UHHgW63w"/>
+    </componentModifications>
+    <componentModifications id="_zgaEdogPEeeXsoq8Y3PSQQ_of Turning Table" toolderived="true">
+      <affectedElement xsi:type="MechanicalComponents:Table" href="My.aps#_zgaEdogPEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="InterfaceRepository:Fixture" href="My.aps#_s3sCioi5EeedS_UHHgW63w"/>
+    </componentModifications>
+    <componentModifications id="_9Ltq1Ii5EeedS_UHHgW63w_Potentiometer_To_Controller" toolderived="true">
+      <affectedElement xsi:type="BusComponents:BusCable" href="My.aps#_9Ltq1Ii5EeedS_UHHgW63w"/>
+      <causingElements xsi:type="InterfaceRepository:SignalInterface" href="My.aps#_4EwX5oi5EeedS_UHHgW63w"/>
+    </componentModifications>
+    <componentModifications id="_8zPwtXziEeeNBPa_wapNVw_PLC" toolderived="true">
+      <affectedElement xsi:type="ComponentRepository:Controller" href="My.aps#_8zPwtXziEeeNBPa_wapNVw"/>
+      <causingElements xsi:type="InterfaceRepository:SignalInterface" href="My.aps#_4EwX5oi5EeedS_UHHgW63w"/>
+    </componentModifications>
+    <componentModifications id="Modification of PotiFix">
+      <affectedElement xsi:type="ComponentRepository:Fixture" href="My.aps#_mn1OMIi5EeedS_UHHgW63w"/>
+    </componentModifications>
+    <componentModifications id="Modification of of Turning Table">
+      <affectedElement xsi:type="MechanicalComponents:Table" href="My.aps#_zgaEdogPEeeXsoq8Y3PSQQ"/>
+    </componentModifications>
+    <componentModifications id="Modification of Poti">
+      <affectedElement xsi:type="ElectronicComponents:Potentiometer" href="My.aps#_ijxi-Ii5EeedS_UHHgW63w"/>
+    </componentModifications>
+    <componentModifications id="Modification of Potentiometer_To_Controller">
+      <affectedElement xsi:type="BusComponents:BusCable" href="My.aps#_9Ltq1Ii5EeedS_UHHgW63w"/>
+    </componentModifications>
+    <componentModifications id="Modification of PLC">
+      <affectedElement xsi:type="ComponentRepository:Controller" href="My.aps#_8zPwtXziEeeNBPa_wapNVw"/>
+    </componentModifications>
+    <componentModifications id="Modification of PotiFix">
+      <affectedElement xsi:type="ComponentRepository:Fixture" href="My.aps#_mn1OMIi5EeedS_UHHgW63w"/>
+    </componentModifications>
+    <componentModifications id="Modification of of Turning Table">
+      <affectedElement xsi:type="MechanicalComponents:Table" href="My.aps#_zgaEdogPEeeXsoq8Y3PSQQ"/>
+    </componentModifications>
+    <componentModifications id="Modification of Poti">
+      <affectedElement xsi:type="ElectronicComponents:Potentiometer" href="My.aps#_ijxi-Ii5EeedS_UHHgW63w"/>
+    </componentModifications>
+    <componentModifications id="Modification of Potentiometer_To_Controller">
+      <affectedElement xsi:type="BusComponents:BusCable" href="My.aps#_9Ltq1Ii5EeedS_UHHgW63w"/>
+    </componentModifications>
+    <componentModifications id="Modification of PLC">
+      <affectedElement xsi:type="ComponentRepository:Controller" href="My.aps#_8zPwtXziEeeNBPa_wapNVw"/>
+    </componentModifications>
+    <moduleModifications id="Modification of PotiModule">
+      <affectedElement xsi:type="ModuleRepository:PotentiometerModule" href="My.aps#_eHTXYoi5EeedS_UHHgW63w"/>
+    </moduleModifications>
+  </changePropagationSteps>
+</modificationmarks:APSReqHardwareModificationRepository>

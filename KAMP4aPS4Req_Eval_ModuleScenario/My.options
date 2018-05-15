@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<options:OptionRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apshardwareoptions="http://www.example.org/apshardwareoptions" xmlns:decisions="http://toometa.de/decisions/0.6" xmlns:options="http://toometa.de/options/0.6" id="_sOM-wD5iEeihasksNa97KA">
+  <options xsi:type="apshardwareoptions:APSReqModuleOption" id="_pCOCrz5wEeihasksNa97KA" parentOf="_pw8w8D5wEeihasksNa97KA _qfFCQT5wEeihasksNa97KA" description="Inductive Sensor Module">
+    <selectedBy xsi:type="decisions:TextDecision" href="My.decisions#_Sy8kAD5wEeihasksNa97KA"/>
+    <modules href="My.aps#_ovfWF3zcEeeksvdRgaWelw"/>
+  </options>
+  <options xsi:type="apshardwareoptions:APSReqComponentOption" id="_pw8w8D5wEeihasksNa97KA" subpartOf="_pCOCrz5wEeihasksNa97KA" description="Inductive Sensor Component">
+    <components href="My.aps#_iTKrxXzfEeeVwtxsirjJlg"/>
+  </options>
+  <options xsi:type="apshardwareoptions:APSReqInterfaceOption" id="_qfFCQT5wEeihasksNa97KA" subpartOf="_pCOCrz5wEeihasksNa97KA" description="Inductive Sensor Interface">
+    <interfaces href="My.aps#_mJswwX2mEeeDbKKokwB3UA"/>
+  </options>
+  <options xsi:type="apshardwareoptions:APSReqModuleOption" id="_-U4Bf1XpEei83KdyrhW_ww" description="Microswitch Modules">
+    <selectedBy xsi:type="decisions:TextDecision" href="My.decisions#_FX2E0EZHEeiaS_YE-7PLjQ"/>
+    <modules href="My.aps#_xxV6UYgPEeeXsoq8Y3PSQQ"/>
+    <modules href="My.aps#_trvW4YgPEeeXsoq8Y3PSQQ"/>
+    <modules href="My.aps#_xRJXUYgPEeeXsoq8Y3PSQQ"/>
+  </options>
+</options:OptionRepository>

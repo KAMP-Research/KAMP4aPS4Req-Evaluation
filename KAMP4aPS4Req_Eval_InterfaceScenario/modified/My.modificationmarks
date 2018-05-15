@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<modificationmarks:APSReqHardwareModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ComponentRepository="edu.kit.ipd.sdq.kaps.xppu.componentrepository" xmlns:InterfaceRepository="edu.kit.ipd.sdq.kaps.xppu.interfacerepository" xmlns:KAMP4aPSModificationmarks="http://sdq.ipd.kit.edu/KAMP4aPSModificationmarks/1.0" xmlns:MechanicalComponents="edu.kit.ipd.sdq.kaps.xppu.mechanicalcomponents" xmlns:decisions="http://toometa.de/decisions/0.6" xmlns:modificationmarks="http://sdq.ipd.kit.edu/KAMP4aPS4ReqHardwareModificationmarks/1.0">
+  <seedModifications xsi:type="modificationmarks:APSReqHardwareSeedModifications">
+    <decisionModifications>
+      <affectedElement xsi:type="decisions:TextDecision" href="My.decisions#_jB2A8FXcEei83KdyrhW_ww"/>
+    </decisionModifications>
+  </seedModifications>
+  <changePropagationSteps xsi:type="modificationmarks:APSReqHardwareChangePropagationDueToSpecificationDependencies">
+    <entityModifications toolderived="true">
+      <affectedElement xsi:type="InterfaceRepository:Screwing" href="My.aps#_YysTYX2mEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="decisions:TextDecision" href="My.decisions#_jB2A8FXcEei83KdyrhW_ww"/>
+    </entityModifications>
+  </changePropagationSteps>
+  <changePropagationSteps xsi:type="KAMP4aPSModificationmarks:ChangePropagationDueToHardwareChange">
+    <interfaceModifications id="Modification of Housing_To_Rack" toolderived="true">
+      <affectedElement xsi:type="InterfaceRepository:Screwing" href="My.aps#_YysTYX2mEeeDbKKokwB3UA"/>
+    </interfaceModifications>
+    <componentModifications id="_yfyUy4gPEeeXsoq8Y3PSQQ_of Turning Table" toolderived="true">
+      <affectedElement xsi:type="ComponentRepository:Rack" href="My.aps#_yfyUy4gPEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="InterfaceRepository:Screwing" href="My.aps#_YysTYX2mEeeDbKKokwB3UA"/>
+    </componentModifications>
+    <componentModifications id="_cgL1YoikEeeLXawdhzQHTw_of MonostableCylinder of Crane" toolderived="true">
+      <affectedElement xsi:type="MechanicalComponents:Housing" href="My.aps#_cgL1YoikEeeLXawdhzQHTw"/>
+      <causingElements xsi:type="InterfaceRepository:Screwing" href="My.aps#_YysTYX2mEeeDbKKokwB3UA"/>
+    </componentModifications>
+    <componentModifications id="Modification of of Turning Table">
+      <affectedElement xsi:type="ComponentRepository:Rack" href="My.aps#_yfyUy4gPEeeXsoq8Y3PSQQ"/>
+    </componentModifications>
+    <componentModifications id="Modification of of MonostableCylinder of Crane">
+      <affectedElement xsi:type="MechanicalComponents:Housing" href="My.aps#_cgL1YoikEeeLXawdhzQHTw"/>
+    </componentModifications>
+    <componentModifications id="Modification of of Turning Table">
+      <affectedElement xsi:type="ComponentRepository:Rack" href="My.aps#_yfyUy4gPEeeXsoq8Y3PSQQ"/>
+    </componentModifications>
+    <componentModifications id="Modification of of MonostableCylinder of Crane">
+      <affectedElement xsi:type="MechanicalComponents:Housing" href="My.aps#_cgL1YoikEeeLXawdhzQHTw"/>
+    </componentModifications>
+  </changePropagationSteps>
+</modificationmarks:APSReqHardwareModificationRepository>
